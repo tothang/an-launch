@@ -1,0 +1,62 @@
+.broadcast__container {
+  // background: url("/img/yale/rectangle-2.png") no-repeat;
+  background-color: black;
+  background-size: 100% 100%;
+  font-family: "BebasNeue-Regular";
+
+  .now-live {
+    font-family: "BebasNeue-Bold";
+    color:white;
+    font-size: 63px;
+
+    @media (max-width: 600px) {
+      font-size: 55px;
+    }
+
+    hr {
+      border: 1px solid #9E1C20;
+      width: 80px;
+      text-align: left;
+      margin: 0;
+    }
+  }
+
+  .tab__container {
+    .tab__list {
+      border-bottom: 2px solid #979797;
+
+      .tab__item {
+        text-align: left;
+
+        .tab__link.active {
+          color: white;
+          border: none;
+          padding: 0;
+          font-size: 40px;
+          font-family: "BebasNeue-Bold";
+        }
+      }
+    }
+  }
+
+  .question__container {
+    .question-content {
+      font-size: 24px;
+      font-family: 'Arial';
+      padding-bottom: 16px;
+    }
+
+    .answer {
+      padding: 30px 0;
+      color: black;
+      background-color: #D1D2CF;
+      border-left: 5px solid black;
+      border-bottom: 5px solid black;
+
+      &.active {
+        background-color: #FFE34B;
+        font-weight: bold;
+      }
+    }
+  }
+}

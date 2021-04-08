@@ -1,0 +1,46 @@
+.auth {
+    &__container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        position: relative;
+        overflow-x: hidden;
+        background-size: 100% 100%;
+
+        @media(max-width: 767px) {
+            justify-content: normal;
+        }
+    }
+
+    &__header {
+        font-size: 4rem;
+    }
+
+    &__content {
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    &__img {
+        height: auto;
+        position: absolute;
+        width: 50%;
+        z-index: -1;
+
+        @include breakpoint('tl') {
+            width: 43vh;
+            height: 43vh;
+        }
+
+        &--top {
+            left: 0;
+            top: 0;
+        }
+
+        &--bottom {
+            bottom: 0;
+            right: 0;
+        }
+    }
+}

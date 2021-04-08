@@ -1,0 +1,109 @@
+.livechat {
+  &__wrapper {
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    max-height: 350px;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    width: 100%;
+
+    /* width */
+    ::-webkit-scrollbar {
+      width: 15px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #888;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    min-height: 0; /* for Firefox */
+    position: relative;
+
+    .scrollable__content {
+      flex-grow: 1;
+      min-height: 0; /* for Firefox */
+      overflow: auto;
+        &__placeholder {
+            margin-top: 1rem;
+            text-align: center;
+            color: #ffffff;
+        }
+    }
+  }
+
+  &-entry {
+    &__container {
+      border-bottom: 1px solid white;
+      color: #fff;
+      font-size: 16px;
+      line-height: 21px;
+      padding-bottom: 10px;
+      padding-right: 36px;
+      padding-top: 10px;
+      position: relative;
+
+      .like__container {
+        cursor: pointer;
+        font-size: 1rem;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+
+        i {
+          color: $secondary;
+          font-size: 1.25rem;
+          padding-left: 0.5rem;
+        }
+      }
+
+      &.liked {
+        i {
+            color: #fff;
+        }
+      }
+
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__fade {
+    pointer-events: none;
+    bottom: 0px;
+    height: 50px;
+    position: absolute;
+    width: 100%;
+
+    .fade-overlay {
+      background-image: linear-gradient(to bottom,
+        rgba($gray-600, 0),
+        rgba($gray-600, 0.3) 100%);
+      bottom: 0;
+      display: block;
+      height: 50px;
+      width: 100%;
+      z-index: 2;
+    }
+  }
+}

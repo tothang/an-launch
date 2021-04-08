@@ -1,0 +1,43 @@
+.countdown {
+  @include breakpoint('ts') {
+    &__wrapper {
+      padding: 5rem 0 8rem;
+    }
+  }
+
+  &__container {
+    color: $dark;
+    @include primary-gradient(270deg);
+    display: flex;
+    padding: 20px;
+  }
+
+  &__item {
+    flex: 1;
+    position: relative;
+    text-align: center;
+
+    &:not(:last-of-type):after {
+      background: $dark;
+      content: '';
+      height: 70%;
+      position: absolute;
+      right: 0;
+      top: 15%;
+      width: 2px;
+      opacity: .3;
+    }
+  }
+
+  &__time {
+    font: {
+      family: NTF-Grand-Regular, sans-serif;
+      size: 2rem;
+      weight: 900;
+    }
+  }
+
+  &__text {
+    font-size: 1rem;
+  }
+}

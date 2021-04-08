@@ -1,0 +1,67 @@
+//Spanish messages
+if(paramObj.text_language_id=="S"){
+bandwithImageLanguage="S";
+
+objLang["TestYourSystem"] = "Pruebe su sistema";
+objLang["Passed"] = "Pasó";
+objLang["Failed"] = "Falló";
+objLang["Warning"] = "Advertencia";
+objLang["BasicData"] = "Datos básicos";
+objLang["BrowserVersion"] = "Versión del navegador";
+objLang["XMLParser"] = "Analizador sintáctico de XML";
+objLang["JavaEnabled"] = "Habilitado para Java";
+objLang["OperatingSystem"] = "Sistema Operativo";
+objLang["Browser"] = "Navegador";
+objLang["Cookies"] = "Cookie";
+objLang["NEXTSTEP"] = "PRÓXIMO PASO";
+objLang["MediaPlayer"] = "Media Player";
+objLang["downloadrealplayer"]= "Descargar Real Player";
+objLang["downloadwindowsmediaplayer"]= "Descargar Windows Media Player";
+objLang["downloadsilverlight"]= "Descargar Silverlight";
+
+ShockwaveDirecter["msg1"] = "Puede detectar módulos de extensión:";
+ShockwaveDirecter["msg2"] = "Permite Shockwave for Director:";
+ShockwaveDirecter["msg3"] = "Permite Shockwave Flash:";
+ShockwaveDirecter["msg4"] = "Permite QuickTime:";
+ShockwaveDirecter["msg5"] = "Permite RealPlayer:";
+ShockwaveDirecter["msg6"] = "Permite Windows Media Player:";
+
+testjvm["msg1"] = "(publicado el 4 de marzo de 2002)";
+testjvm["msg2"] = "El número mínimo de la versión requerido es <version>";
+testjvm["msg3"] = "La VM de Microsoft no está instalada en este computador.";
+testjvm["msg4"] = "Por favor instale la versión mas reciente de la Máquina Virtual de Java desde <url>";
+testjvm["msg5"] = "Este navegador es <browsername>";
+testjvm["msg6"] = "La VM de Microsoft VM no está disponible para este producto.";
+testjvm["msg7"] = "Usted está corriendo <version> de <vendor>";
+
+writeCheckForJava["msg1"] = "Actualmente su navegador no está habilitado para Java.";
+writeCheckForJava["msg2"] = "Su navegador no tiene una versión actualizada de la Máquina Virtual de Java, la cual se requiere para participar en conferencias en la web. Recomendamos que actualice su sistema, si es posible, haciendo clic <linkstart>aquí<linkend> para conseguir las actualizaciones más recientes.";
+
+detectFlash["msg1"] = "Hemos detectado que usted no ha instalado Flash. Por favor haga clic <linkstart>aquí<linkend> para instalarlo.";
+
+OS["msg1"] = "No pudimos detectar un sistema operativo que cumpla con las especificaciones óptimas para webcast para escuchar y/o visualizar webcasts. Recomendamos los siguientes sistemas operativos:<linebreak>Windows 10, Windows 8, Windows 7, y a la versión más reciente de Mac OS X<linebreak>Por favor note que los usuarios con sistemas operativos Windows Vista, XP, 2000, Windows NT 4.0, Windows 98,  Windows ME, Windows 95, Mac y Unix pueden experimentar dificultades para escuchar y/o visualizar webcasts.";
+OS["msg2"] = "Hemos detectado que su sistema operativo no cumple con las especificaciones óptimas para webcast para escuchar y/o visualizar webcasts. Recomendamos los siguientes sistemas operativos:<linebreak>Windows 10, Windows 8, Windows 7, y a la versión más reciente de Mac OS X<linebreak>Por favor note que los usuarios con sistemas operativos Windows Vista, XP, 2000, Windows NT 4.0, Windows 98,  Windows ME, Windows 95, Mac y Unix pueden experimentar dificultades para escuchar y/o visualizar webcasts. Por favor póngase en contacto con su administrador de red para cualesquier actualizaciones del sistema operativo.";
+OS["msg3"] = "No pudimos detectar un sistema operativo que cumpla con las especificaciones óptimas para webcast para escuchar y/o visualizar webcasts. Recomendamos los siguientes sistemas operativos:<linebreak>Windows 10, Windows 8, Windows 7, y a la versión más reciente de Mac OS X<linebreak>Por favor note que los usuarios con sistemas operativos Windows Vista, XP, 2000, Windows NT 4.0, Windows 98,  Windows ME, Windows 95, Mac y Unix pueden experimentar dificultades para escuchar y/o visualizar webcasts.";
+OS["msg4"] = "No pudimos detectar un sistema operativo que cumpla con las especificaciones óptimas para webcast para escuchar y/o visualizar webcasts. Recomendamos los siguientes sistemas operativos:<linebreak>Windows 10, Windows 8, Windows 7, y a la versión más reciente de Mac OS X<linebreak>Por favor note que los usuarios con sistemas operativos Windows Vista, XP, 2000, Windows NT 4.0, Windows 98,  Windows ME, Windows 95, Mac y Unix pueden experimentar dificultades para escuchar y/o visualizar webcasts.";
+
+
+msgBrowser["msg1"] = "No pudimos detectar un navegador que cumpla con las especificaciones óptimas para webcast para escuchar y/o visualizar webcasts.";
+msgBrowser["msg2"] = "Recomendamos que actualice a la versión más reciente de <link1start>Firefox<link1end> o cambie a <link2start>Microsoft Internet Explorer<link2end>.";
+msgBrowser["msg3"] = "Recomendamos que actualice a la versión más reciente de Microsoft Internet Explorer. Si está experimentando problemas, haga clic por favor en el siguiente ícono para descargarlo.";
+msgBrowser["msg4"] = "Recomendamos que actualice a la versión más reciente de Microsoft Internet Explorer. Si está experimentando problemas, haga clic por favor en el siguiente ícono para descargarlo.";
+msgBrowser["msg5"] = "Recomendamos que actualice a la versión más reciente de Microsoft Internet Explorer. Si está experimentando problemas, haga clic por favor en el siguiente ícono para descargarlo.";
+
+msgXMLParser["msg1"] = "Algunas de nuestras aplicaciones requieren un analizador sintáctico de XML. Internet Explorer 6.0 y posteriores lo suministran como una facilidad estándar.  <link1start>Haga clic aquí para actualizar su navegador<link1end>.";
+
+msgCookies["msg1"] = "Actualmente su navegador no está habilitado para aceptar cookies, las cuales son requeridas para tener acceso a webcasts. Haga clic <linkstart>aquí</linkend> para obtener instrucciones sobre cómo habilitar su navegador para aceptar cookies.";
+
+msgMediaPlayer["msg1"] = "Haga clic en el siguiente vínculo: <link2start>Windows Media<link2end> para verificar que su computador está configurado para flujo de medios.";
+msgMediaPlayer["msg2"] = "";//Real Player
+msgMediaPlayer["msg3"] = "Haga clic en el siguiente vínculo: <linkstart>Windows Media Player<linkend> para verificar que su computador está configurado para flujo de medios.";
+msgMediaPlayer["msg4"] = "A fin de brindarle una óptima experiencia al escuchar y/o ver webcasts, recomendamos los siguientes plug-ins para reproductores multimedia:<linebreak><listitemstart>Reproductor de Windows Media 12 o versión superior admitida por su sistema operativo  <listitemend><listitemstart>RealPlayer 10 o versión superior admitida por su sistema operativo <listitemend>. Haga clic en uno de los íconos para descargar el Reproductor de Windows Media Player.";
+msgMediaPlayer["msg6"] = "<span style='color:#FF0000;font-weight:bold;'>Su sistema no cuenta con el ancho de banda necesario para visualizar el contenido del video.</span>";
+msgMediaPlayer["msg7"] = "<span style='color:#FF0000;font-weight:bold;'>Su sistema no cuenta con el ancho de banda necesario para visualizar este contenido..</span>";
+
+testMediaPlayer["msg1"] = "<paragraphstart>Si no pudo ver el video de prueba, podría considerar el ver la webcast utilizando un reproductor de medios alternativo.<paragraphend><paragraphstart>Si puede ver el video pero no puede oir nada, por favor verifique la configuración del volumen de su sistema y el volumen del reproductor de medios.<paragraphend><paragraphstart>A fin de proporcionar una experiencia óptima al escuchar y/o visualizar webcasts, recomendamos los siguientes módulos de extensión de reproductor de medios:<linebreak>Windows Media Player 12 o superior.<paragraphend>";
+
+}

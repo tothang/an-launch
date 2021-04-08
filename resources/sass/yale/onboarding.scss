@@ -1,0 +1,193 @@
+.onboarding {
+  .yale {
+    .item-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    .owl__full-screen {
+      max-height: calc(80vh - 30px);
+
+      @media (min-width: 992px) {
+        max-height: 80vh;
+      }
+
+      .owl-item > div {
+        max-height: 65vh;
+
+        > .video-bg {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+
+          @media (min-width: 992px) {
+            background-image: url("../img/yale/onboarding/video.png");
+            background-repeat: no-repeat;
+            background-position: 70% calc(50% - 20px);
+          }
+
+          iframe {
+            width: 100%;
+            height: 100%;
+
+            @media (min-width: 992px) {
+              width: 777px;
+              height: 350px;
+            }
+          }
+        }
+      }
+
+      .owl__img,
+      .owl__text {
+        @media (min-width: 992px) {
+          width: 777px;
+        }
+      }
+
+      .owl__text {
+        color: #3e4545;
+        font-family: "DINNextLTPro-Regular";
+        font-size: 14px;
+
+        @media (min-width: 768px) {
+          font-size: 16px;
+        }
+
+        h1 {
+          font-family: "DINNextLTPro-Bold";
+          color: #e5a713;
+        }
+
+        a {
+          color: #e5a713;
+          text-decoration: none;
+          font-family: "DINNextLTPro-Regular";
+        }
+      }
+      .owl-dots {
+        .owl-dot {
+          span {
+            background: #d8d8d8;
+          }
+        }
+        .active {
+          span {
+            background-color: #e5a713 !important;
+          }
+        }
+        .is-selected {
+          span {
+            background-color: #e5a713 !important;
+          }
+        }
+      }
+      .btn-got-it {
+        display: none;
+      }
+    }
+
+    .text-center {
+      .owl__btn {
+        font-family: "DINNextLTPro-Bold";
+        font-weight: bold;
+        background-color: #e5a713;
+        border-radius: 8px;
+        color: #000000;
+        padding: 12px 40px;
+        width: 140px;
+
+        &:hover,
+        &:focus,
+        &:active {
+          background-color: #e5a713 !important;
+          border: 0;
+          box-shadow: none;
+        }
+      }
+      .btn-trigger-got-it {
+        display: none;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .owl__full-screen {
+        .owl__text {
+          font-size: 19px;
+          line-height: 29px;
+          padding: 0;
+
+          h1 {
+            font-size: 41px;
+          }
+        }
+      }
+      .mobile {
+        display: none;
+      }
+    }
+
+    @media (min-width: 420px) and (max-width: 991.98px) {
+      .navbar {
+        .container-fluid {
+          flex-direction: row;
+          padding: 0 30px;
+          margin-top: 1rem;
+        }
+      }
+      .text-center {
+        .owl__btn {
+          background-color: #e5a713;
+          border-radius: 24px;
+          border: solid 2px #ffffff;
+          color: #000000;
+          font-family: "DINNextLTPro-Bold";
+          font-weight: bold;
+        }
+      }
+    }
+
+    @media (max-width: 420px) {
+      .mobile {
+        display: block;
+      }
+      .bg-video {
+        iframe {
+          background-image: none !important;
+        }
+
+        .video {
+        }
+      }
+      .container-iframe {
+        width: 100% !important;
+      }
+      .owl__text {
+        h1 {
+          display: none;
+        }
+        a {
+          color: #ffffff;
+          text-decoration: none;
+          font-family: Arial;
+        }
+      }
+    }
+  }
+  nav {
+    .navbar-collapse {
+      ul {
+        display: none;
+      }
+    }
+    button {
+      display: none;
+    }
+  }
+  .notification {
+    display: none;
+  }
+}

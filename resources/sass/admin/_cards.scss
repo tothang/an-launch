@@ -1,0 +1,13 @@
+.card {
+    min-height: 200px;
+
+    &--small {
+        min-height: 300px;
+    }
+    &--medium {
+        min-height: 500px;
+    }
+    &--large {
+        min-height: 750px;
+    }
+}

@@ -1,0 +1,7 @@
+.u-pb {
+    @for $i from 0 through 5 {
+        &--#{$i} {
+            padding-bottom: $i * 10 + px;
+        }
+    }
+}

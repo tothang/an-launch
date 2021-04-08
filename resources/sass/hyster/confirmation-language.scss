@@ -1,0 +1,261 @@
+.confirmation-language {
+  position: relative;
+
+  background-image: url("/img/hyster/language_confirmation/bg-desktop.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+
+  .bg {
+    background-image: none;
+  }
+
+  @media (max-width: 320px) {
+    .current-language {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      font-family: "Arial";
+    }
+  }
+  @media (min-width: 1024px) {
+    .title-desktop {
+      display: block;
+    }
+    .title-mobile {
+      display: none;
+    }
+    .current-language {
+      margin-top: 20px;
+      margin-bottom: 40px;
+      font-family: "Arial";
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+
+  @media (max-width: 1023px) {
+    .title-desktop {
+      display: none;
+    }
+    .title-mobile {
+      display: block;
+    }
+  }
+
+  @media (min-width: 767px) and (max-width:1023px) {
+
+    background-image: url("/img/hyster/language_confirmation/bg-tablet.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .current-language {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-family: "Arial";
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+
+    background-image: url("/img/hyster/language_confirmation/bg-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .mobile {
+      display: block;
+    }
+    .disable-mobile {
+      display: none;
+    }
+
+    .center-block {
+      padding: 15px;
+    }
+    .custom-btn {
+      width: 100%;
+      border-radius: 0;
+      height: 77px;
+      font-size: 24px;
+      color: #000;
+      background-color: #ffe34b;
+    }
+
+    .gr-btn-mobile {
+      border-top: solid 3px #ffe34b;
+      position: absolute;
+      width: 100%;
+      bottom: 0px;
+      button {
+        h2 {
+          font-family: "BebasNeue-Bold";
+          text-transform: uppercase;
+        }
+      }
+    }
+    .title {
+      font-size: 55px;
+    }
+    .current-language {
+      margin-top: 20px;
+      margin-bottom: 30px;
+      font-family: "Arial";
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .content {
+      margin: auto 30px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .mobile {
+      display: none;
+    }
+    .center-block {
+      padding: 55px 90px;
+    }
+    .bg {
+      margin-top: -300px;
+      padding-top: 300px;
+    }
+    form {
+      width: 100%;
+      .custom-btn {
+        margin-top: 30px;
+        background-color: #ffe34b;
+        color: #000;
+        border-radius: 0;
+        font-family: "BebasNeue-Bold";
+        text-transform: uppercase;
+        font-size: 19px;
+        padding: 13px 32px;
+        height: 48px;
+      }
+    }
+  }
+
+  .confirmation-language-hyster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    form {
+      display: flex;
+      align-items: center;
+      height: calc(100vh - 200px);
+    }
+
+    .center-block {
+      margin: auto;
+
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        margin: initial;
+      }
+
+      @media (min-width: 992px) {
+        background-color: #000;
+      }
+
+      .title {
+        text-transform: uppercase;
+        font-family: "BebasNeue-Bold";
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: 0.67px;
+        color: #ffe34b;
+        font-size: 35px;
+        line-height: 91px;
+
+        @media (min-width: 600px) and (max-width: 1023px) {
+          font-size: 65px;
+          line-height: 78px;
+          letter-spacing: 1.24px;
+        }
+
+        @media (max-width: 600px) {
+          font-size: 55px;
+          letter-spacing: 1.05px;
+          line-height: 53px;
+        }
+      }
+      .form-group {
+        position: relative;
+
+        @media (max-width: 600px) {
+          margin-left: -15px;
+          margin-right: -15px;
+        }
+
+        select {
+          border-radius: 0;
+          background-color: #4d4d4d;
+          color: #ffffff;
+          font-family: "Arial";
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          text-indent: 1px;
+          text-overflow: "";
+          border: none;
+          background: url("/img/hyster/arrow-down.png") no-repeat #4d4d4d;
+          background-position: right 8px top 7px;
+        }
+
+        .bootstrap-select.btn-group .dropdown-menu li a:hover {
+          color: whitesmoke !important;
+          background: #bf5279 !important;
+        }
+
+        .dropdown-menu > li {
+          background-color: #4d4d4d;
+        }
+
+        .dropdown-menu > li > a:hover,
+        .dropdown-menu > li > a:focus {
+          text-decoration: none;
+          color: #ffffff;
+          background-color: #f3969a;
+        }
+
+        .img-1 {
+          position: absolute;
+          right: 9px;
+          top: 5px;
+          max-width: 30px;
+          max-height: 30px;
+        }
+        * {
+          font-family: "Arial";
+          font-size: 16px;
+          color: #fff;
+        }
+      }
+      .btn-back {
+        margin-bottom: 30px;
+        margin-top: 30px;
+        a {
+          color: #ffe34b;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .navbar-collapse {
+    ul {
+      display: none;
+    }
+  }
+
+  .line {
+    width: 59px;
+    border-bottom: 2px solid #9E1C20;
+    margin-top: -30px;
+
+    @media (min-width: 768px) {
+      width: 101px;
+    }
+  }
+}

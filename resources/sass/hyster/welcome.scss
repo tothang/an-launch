@@ -1,0 +1,335 @@
+.bg {
+  background-image: none;
+}
+
+.about-event {
+  &-container {
+    max-width: inherit;
+    background-image: url('/img/hyster/Section.png');
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    background-position: right center;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &-description {
+    background-color: #ffe34b;
+    color: black;
+    padding: 100px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 92% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0%, 92% 100%, 0 100%);
+
+    &-wrapper {
+      margin: 0 80px;
+    }
+
+    h4 {
+      font-size: 44px;
+      font-family: "BebasNeue-Bold";
+    }
+
+    .content {
+      font-family: DINNextLTPro-Light;
+      margin: 20px 0;
+    }
+
+    .btn-view-agenda {
+      border-radius: 0;
+      font-size: 19px;
+      color: black;
+      background-color: transparent;
+      font-family: "BebasNeue-Bold";
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+      padding: 10px 40px;
+    }
+  }
+}
+
+.event-container {
+  max-width: inherit;
+  background-image: url('/img/hyster/Welcome background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  .event-calendar {
+    margin: 20px 0 0 0;
+    font-size: 30px;
+    font-family: "BebasNeue-Bold";
+    color: #ffe34b;
+
+    .event-date {
+      margin-right: 15px;
+    }
+  }
+
+  .unable-attend {
+    display: block;
+    padding: 20px 0 30px 5px;
+    color: #9d9d9d;
+    font-family: DINNextLTPro-Light;
+  }
+
+  .header {
+    font-family: "BebasNeue-Bold";
+    padding-top: 100px;
+    font-size: 98px;
+    line-height: 85px;
+
+    hr {
+      border: 1px solid #9E1C20;
+      background-color: #9E1C20;
+      width: 15%;
+      text-align: left;
+      margin: 0;
+    }
+  }
+
+  .description {
+    margin: 0 0 30px 0;
+    font-family: "Arial";
+    font-size: 16px;
+  }
+
+  .btn-register {
+    font-size: 19px;
+    padding: 10px 40px;
+    color: black;
+    background-color: #FFE34B;
+    border: none;
+    border-radius: 0;
+    font-family: "BebasNeue-Bold";
+  }
+
+  .btn-register-mobile {
+    display: none;
+  }
+
+  .diagonal-line {
+    height: calc(100% - 80px);
+    -webkit-transform: translateY(90px) translateX(-49px) rotate(7deg);
+    border-left: 7px solid #ffe34b;
+    float: left;
+    box-sizing: border-box;
+    position: absolute;
+    top: -50px;
+    padding-top: 100px;
+  }
+}
+
+.event-section-container {
+  margin-bottom: 121px;
+
+  .embed-container {
+    position: initial;
+    padding-bottom: 0;
+
+    @media (max-width: 600px) {
+      padding-bottom: 60%;
+    }
+  }
+
+  .teaser {
+    background-image: url("/img/yale/rectangle-3@3x.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+  }
+
+  .speaker-hightlight {
+    background-image: url("/img/yale/pexels-photo-736716@3x.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+  }
+
+  .col-md-4 {
+    padding: 0 5px;
+  }
+
+  img {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .speaker-highlight {
+    background-image: linear-gradient(to top, grey, black 27%);
+  }
+
+  .speaker-card {
+    position: absolute;
+    top: 90px;
+    left: 35px;
+    color: white;
+    font-family: "BebasNeue-Bold";
+  }
+
+  .agenda-card {
+    position: absolute;
+    top: 90px;
+    left: 35px;
+    padding-bottom: 35px;
+    color: white;
+    font-family: "BebasNeue-Bold";
+  }
+
+  .highlight {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    width: auto;
+    padding: 3px 10px;
+    position: absolute;
+    top: 50px;
+    left: 5px;
+
+    span {
+      padding-left: 30px;
+      color: #3E4545;
+      font-weight: bold;
+    }
+  }
+
+  .title {
+    font-size: 44px;
+    color: #ffe34b;
+  }
+
+  .title-2 {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Arial';
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .about-event-container {
+    display: none;
+  }
+
+  .event-section-container {
+    .title {
+      font-size: 24px;
+    }
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .event-section-container {
+    .title {
+      font-size: 32px;
+    }
+  }
+
+  .bg {
+    background-image: none;
+  }
+
+  .event-section-container {
+    margin-bottom: 0;
+
+    .col-md-4 {
+      padding: 0;
+      border-bottom: 2px solid #ffe34b;
+    }
+
+    img {
+      box-shadow: none;
+    }
+
+    .agenda-card {
+      box-shadow: none;
+    }
+
+    .highlight {
+      left: 0px;
+      font-size: 18px;
+    }
+  }
+
+  .event-container {
+    .header {
+      font-size: 55px;
+      line-height: 53px;
+      background-image: url('/img/hyster/Welcome background.png');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-position: center;
+      margin-right: -15px;
+      padding-top: 150px;
+
+      span {
+        width: 275px;
+        display: block;
+      }
+
+      hr {
+        width: 70px;
+      }
+    }
+
+    .event-calendar {
+      .event-date {
+        font-size: 20px;
+      }
+
+      .event-time {
+        font-size: 20px;
+      }
+    }
+
+    .btn-register-mobile {
+      display: block;
+      border-radius: 0;
+      width: calc(100% + 40px);
+      margin-left: -25px;
+      padding: 15px 25px;
+      border-top: 2px solid #9E1C20;
+      font-size: 24px;
+      background-color: transparent;
+      color: white;
+    }
+  }
+
+  .about-event-container {
+    background-image: none;
+    background-color: #ffe34b;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 72% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0%, 72% 100%, 0 100%);
+
+    .about-event-description-wrapper {
+      width: 100%;
+      margin: 0 auto;
+      padding-left: 20px;
+    }
+
+    .content {
+      display: none;
+    }
+
+    .about-event-description {
+      background-color: inherit;
+      padding: 50px 15px;
+
+      h4 {
+        font-size: 44px;
+      }
+
+      .btn-view-agenda {
+        border: none;
+        border-bottom: 2px solid black;
+        box-shadow: none;
+        text-align: left;
+        padding: 10px 0;
+        width: 100%;
+        font-size: 24px;
+      }
+    }
+  }
+}

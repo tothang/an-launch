@@ -1,0 +1,20 @@
+.form {
+  &-control {
+    height: $input-height;
+  }
+
+  &-button {
+    padding: $input-button-padding;
+  }
+}
+
+.help-block {
+  background-color: $danger;
+  border-radius: $border-radius;
+  display: block;
+  margin-top: 1rem;
+  padding: 0.5rem;
+    &-token {
+        margin: 10px 0;
+    }
+}

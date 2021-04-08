@@ -1,0 +1,8 @@
+.svg-gradient {
+  &--from {
+    stop-color: nth($primary-gradient, 2);
+  }
+  &--to {
+    stop-color: nth($primary-gradient, 1);
+  }
+}

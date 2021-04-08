@@ -1,0 +1,226 @@
+.register-page {
+  h3 {
+    font-size: 66px;
+    font-family: "BebasNeue-Bold";
+    margin: 0 0 10px 0;
+    text-align: left;
+  }
+
+  .line {
+    border: 2px solid #9E1C20;
+    width: 20%;
+    background-color: #9E1C20;
+    margin: 20px 0 30px 0
+  }
+
+  h4 {
+    font-size: 30px;
+    color: #ffe34b;
+    font-family: "BebasNeue-Bold";
+    padding: 10px 0;
+    text-align: left;
+  }
+
+  form {
+    width: 700px;
+    margin: 20px auto 0 auto;
+    box-shadow: 0 49px 59px 0 rgba(0, 0, 0, 0.09);
+    padding: 50px 100px;
+
+    .register-description {
+      text-align: left;
+      font-size: 12px;
+      padding: 17px 0;
+
+      .error {
+        color: #9e1c20;
+        font-family: 'Arial';
+      }
+
+      label.container {
+        font-family: "Arial";
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 14px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
+        .privacy-policy {
+          a {
+            font-size: 14px;
+            font-family: 'Arial';
+            font-weight: bold;
+            color: white;
+          }
+        }
+
+        input {
+          position: absolute;
+          opacity: 0;
+          cursor: pointer;
+          height: 0;
+          width: 0;
+
+          &:checked {
+            ~ {
+              .checkmark {
+                background-color: #ffe34b;
+                &:after {
+                  display: block;
+                }
+              }
+            }
+          }
+        }
+
+        &:hover {
+          input {
+            ~ {
+              .checkmark {
+                background-color: #ffe34b;
+              }
+            }
+          }
+        }
+
+        .checkmark {
+          &:after {
+            left: 9px;
+            top: 0px;
+            width: 9px;
+            height: 18px;
+            border: solid black;
+            border-width: 0 2px 2px 0;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+          }
+        }
+      }
+
+      .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: #ffe34b;
+
+        &:after {
+          content: "";
+          position: absolute;
+          display: none;
+        }
+      }
+    }
+
+    select {
+      padding: 10px;
+      padding-right: 30px;
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      appearance: none;
+      background-image: url('/img/hyster/arrow-down.png');
+        background-repeat: no-repeat, repeat;
+        background-position: right 0.75em top 50%, 0 0;
+        background-size: 1.5em auto, 100%;
+    }
+
+    .form-control {
+      border-radius: 0;
+      border: none;
+      background-color: #4d4d4d;
+      color: #fff;
+      font-family: 'Arial';
+    }
+
+    button {
+      color: black;
+      background-color: #ffe34b;
+      border-radius: 0;
+      font-family: 'BebasNeue-Bold';
+      font-size: 19px;
+      padding: 10px 25px;
+
+      @media only screen and (max-width: 600px) {
+        border-radius: 0;
+        width: calc(100% + 50px);
+        margin-left: -25px;
+        font-size: 24px;
+        padding: 15px 25px;
+        border: none;
+        border-top: 2px solid #ffe34b;
+      }
+
+      &:hover {
+        border: 2px solid transparent;
+      }
+    }
+
+    .decline-btn {
+      font-size: 19px;
+      width: auto;
+      margin: inherit;
+      padding: 15px 60px;
+    }
+
+    .btn-home {
+      color: black;
+      background-color: #ffe34b;
+      border-radius: 0;
+      font-family: 'BebasNeue-Bold';
+      font-size: 19px;
+      padding: 10px 25px;
+    }
+
+    .decline-success-container {
+      display: none;
+
+      .decline-success-message {
+        margin: 50px 0;
+        color: white;
+        font-size: 16px;
+        font-family: 'Arial';
+
+        @media only screen and (max-width: 768px) {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .register-page {
+    h3 {
+      font-size: 55px;
+      margin: 64px 0 10px 0;
+    }
+
+    h4 {
+      font-size: 30px;
+      font-family: "BebasNeue-Bold";
+      padding: 10px 0;
+      text-align: left;
+    }
+
+    form {
+      padding: 0 15px;
+      text-align: center;
+      width: auto;
+      background-color: inherit;
+      box-shadow: none;
+    }
+
+    @media only screen and (max-width: 600px) {
+      #unableToAttendForm {
+        padding: 0 30px;
+      }
+    }
+  }
+}

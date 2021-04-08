@@ -1,0 +1,16 @@
+@extends(View::exists('experience::layouts.app') ? 'experience::layouts.app' : 'layouts.app')
+
+@section('title', 'Agenda')
+
+@section('content')
+    @foreach($agendaGroups as $group => $agendaItems)
+        <div class="agenda__group">
+            <h4 class="{{ $loop->iteration !== 0 ? 'mt-2' : '' }}">{{ Carbon::parse($group)->isoFormat('dddd Do MMMM') }}</h4>
+            <table>
+                @foreach($agendaItems as $agendaItem)
+                    @include('agenda::partials.item')
+                @endforeach
+            </table>
+        </div>
+    @endforeach
+@endsection

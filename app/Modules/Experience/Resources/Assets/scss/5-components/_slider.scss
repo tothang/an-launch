@@ -1,0 +1,41 @@
+$this: 'slider';
+
+.#{$this} {
+    height: auto;
+    margin-bottom: 30px;
+
+    &__img {
+        max-width: 100%;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+    }
+
+    .owl-prev > img {
+        left: 0;
+        right: auto;
+        transform: rotate(-180deg) translateY(-50%);
+        transform-origin: top;
+    }
+
+    .owl-item > div {
+        height: auto;
+    }
+
+    .owl-dots {
+        text-align: center;
+    }
+
+    .owl-dot {
+        > span {
+            border: 1px solid $ash;
+        }
+
+        &.active > span {
+            background: $ash;
+        }
+    }
+}

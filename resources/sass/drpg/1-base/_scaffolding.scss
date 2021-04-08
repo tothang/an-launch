@@ -1,0 +1,23 @@
+body {
+  background-color: $light;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+hr {
+  border-color: $light;
+}
+
+a {
+  &:hover {
+    color: $primary;
+  }
+
+  &:focus {
+    color: darken($primary, 10%);
+  }
+
+  &:not([href]) {
+    color: initial;
+  }
+}

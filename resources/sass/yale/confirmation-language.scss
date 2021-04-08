@@ -1,0 +1,221 @@
+.confirmation-language {
+  @media (max-width: 320px) {
+    .img-1 {
+      max-width: 70px !important;
+    }
+  }
+  position: relative;
+  background: url("/img/yale/rectangle-2.png") no-repeat;
+  background-size: 100% 100%;
+  .confirmation-language-yale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .title-mobile {
+      display: none;
+    }
+
+    @media only screen and (min-device-width: 567px) and (max-device-width: 1024px) and (orientation: portrait) {
+      .tablet {
+        display: block;
+      }
+      .title {
+        font-size: 45px!important;
+      }
+      form {
+        width: 100%;
+        .center-block {
+          margin: auto;
+          background-color: #ffffff;
+          box-shadow: 0 77px 59px 0 rgba(0, 0, 0, 0.15);
+          padding: 30px 50px 30px 50px;
+          .btn {
+            margin-top: 15px !important;
+            color: #000000;
+          }
+
+          .current-language {
+            margin-top: 40px!important;
+            margin-bottom: 40px!important;
+            font-size: 14px!important;
+          }
+        }
+      }
+    }
+
+    @media (max-width: 567px) {
+      .mobile {
+        display: block;
+      }
+      .disable-mobile {
+        display: none;
+      }
+      .center-block {
+        display: flex;
+        align-items: flex-start;
+        height: calc(100vh - 300px);
+        padding: 20px 30px;
+
+        .current-language {
+          margin-top: 10px!important;
+          font-size: 14px!important;
+        }
+      }
+      .btn {
+        width: 100%;
+        background-color: #e5a713;
+        color: #000000;
+        border-radius: 0;
+        text-transform: uppercase;
+        font-size: 24px!important;
+        font-family: "DINNextLTPro-Bold";
+        font-weight: 700;
+      }
+      .gr-btn-mobile {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+      .title {
+        font-size: 55px!important;
+        letter-spacing: -2.33px!important;
+        margin-bottom: 0;
+        line-height: 1.05;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .mobile {
+        display: none;
+      }
+      .center-block {
+        margin: auto;
+        background-color: #ffffff;
+        box-shadow: 0 77px 59px 0 rgba(0, 0, 0, 0.15);
+        padding: 50px;
+      }
+
+      form {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        height: calc(100vh - 108px);
+
+        .btn {
+          width: 40%;
+          margin-top: 15px;
+          color: #000000;
+          border-radius: 8px;
+          background-color: #e5a713;
+          font-family: "DINNextLTPro-Bold";
+          padding: 13px 20px;
+          font-size: 14px;
+          font-weight: 700;
+        }
+      }
+    }
+
+    &.bg {
+      margin-top: -300px;
+      padding-top: 300px;
+    }
+    .center-block {
+      .title {
+        font-family: "DINNextLTPro-Bold";
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: 0.67px;
+        color: #e5a713;
+        font-size: 35px;
+      }
+      .current-language {
+        font-family: "DINNextLTPro-Light";
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 16px;
+      }
+      .form-group {
+        position: relative;
+        select {
+          font-family: "DINNextLTPro-Light";
+          border-radius: 8px;
+          border: none;
+          background-color: #e4e4e4;
+          color: #3e4545;
+          text-indent: 1px;
+          text-overflow: "";
+          background: url('/img/yale/icons/angle-arrow-down.png') no-repeat
+            right #ddd;
+
+          -webkit-appearance: none;
+          background-position-x: 95%;
+          height: 48px;
+          font-size: 16px;
+          margin-top: 35px;
+        }
+        .img-1 {
+          position: absolute;
+          right: 9px;
+          top: 5px;
+          max-width: 30px;
+          max-height: 30px;
+        }
+      }
+      .btn-back {
+        margin-bottom: 30px;
+        margin-top: 30px;
+        margin-left: 20px;
+        font-family: "DINNextLTPro-Bold";
+        font-weight: bold;
+
+        a {
+          color: #e5a713;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .navbar-collapse {
+    ul {
+      display: none;
+    }
+  }
+
+  @media (max-width: 567px) {
+    .navbar {
+      .container-fluid {
+        padding: 40px 30px;
+      }
+
+      .navbar-toggler {
+        span {
+          display: none;
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-device-width: 567px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .navbar {
+      .container-fluid {
+        padding-top: 15px;
+      }
+
+      .navbar-toggler {
+        span {
+          display: none;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    .navbar {
+      .container-fluid {
+        padding-top: 30px;
+      }
+    }
+  }
+}

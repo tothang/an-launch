@@ -1,0 +1,66 @@
+//Japanese messages
+if(paramObj.text_language_id=="J"){
+bandwithImageLanguage="J";
+
+objLang["TestYourSystem"] = "あなたのシステムをテストする";
+objLang["Passed"] = "成功";
+objLang["Failed"] = "失敗";
+objLang["Warning"] = "警告";
+objLang["BasicData"] = "基本データ";
+objLang["BrowserVersion"] = "ブラウザバージョン";
+objLang["XMLParser"] = "XMLパーサ";
+objLang["JavaEnabled"] = "Java利用可";
+objLang["OperatingSystem"] = "オペレーティングシステム";
+objLang["Browser"] = "ブラウザ";
+objLang["Cookies"] = "クッキー";
+objLang["NEXTSTEP"] = "次のステップ";
+objLang["MediaPlayer"] = "Media Player";
+objLang["downloadrealplayer"]= "Real Playerをダウンロードする";
+objLang["downloadwindowsmediaplayer"]= "Windows Media Playerをダウンロードする";
+objLang["downloadsilverlight"]= "Silverlightをダウンロードする";
+
+ShockwaveDirecter["msg1"] = "プラグインが検出されました:";
+ShockwaveDirecter["msg2"] = "Shockwave for Director利用可:";
+ShockwaveDirecter["msg3"] = "Shockwave Flash利用可:";
+ShockwaveDirecter["msg4"] = "QuickTime利用可:";
+ShockwaveDirecter["msg5"] = "RealPlayer利用可:";
+ShockwaveDirecter["msg6"] = "Windows Media Player利用可:";
+
+testjvm["msg1"] = "(2002年3月4日リリース)";
+testjvm["msg2"] = "ビルド<version>以上が必要";
+testjvm["msg3"] = "Microsoft VM はこのコンピュータにはインストールされていません。";
+testjvm["msg4"] = "<url>からJava Virtual Machine の最新バージョンをインストールしてください。";
+testjvm["msg5"] = "このブラウザは<browsername>です";
+testjvm["msg6"] = "Microsoft VM は使用できません。";
+testjvm["msg7"] = "<vendor>の<version>を利用しています。";
+
+writeCheckForJava["msg1"] = "あなたのブラウザ設定では、Javaが無効になっています。";
+writeCheckForJava["msg2"] = "  あなたのブラウザにはウェブ会議に参加するために必要なJava Virtual Machineの最新のバージョンがありません。<linkstart>ここ<linkend>をクリックしてシステムを更新することをお勧めします。";
+
+detectFlash["msg1"] = "Flashが見つかりません。<linkstart>ここ<linkend>をクリックしてFlash をインストールしてください。";
+
+OS["msg1"] = "ウェブキャストの仕様を満たすオペレーティングシステムを検出できませんでした。次のオペレーティングシステムをお勧めします <linebreak>Windows 7、8、10 および Mac OS X 10.9<linebreak>Windows Vista、XP、2000、NT 4.0、Windows 98、Windows ME、Windows 95、Mac および Unix オペレーティングシステムのユーザはウェブキャストを視聴できない場合があります。";
+OS["msg2"] = "ウェブキャストの仕様を満たしていないオペレーティングシステムです。次のオペレーティングシステムをお勧めします <linebreak>Windows 7、8、10 および Mac OS X 10.9<linebreak>Windows Vista、XP、2000、NT 4.0、Windows 98、Windows ME、Windows 95、Mac および Unix オペレーティングシステムのユーザはウェブキャストを視聴できない場合があります。あなたのシステム管理者にオペレーティングシステムのアップグレードについてお問い合わせください。";
+OS["msg3"] = "ウェブキャストを視聴するのに最適なウェブキャストの仕様を満たすオペレーティングシステムを検出できませんでした。次のオペレーティングシステムをお勧めします:<linebreak>Windows 7、8、10  および Mac OS X 10.9<linebreak>Windows Vista、XP、2000、NT 4.0、Windows 98、Windows ME、Windows 95、Mac および Unix オペレーティングシステムのユーザはウェブキャストの視聴が困難なことがあることに留意してください。";
+OS["msg4"] = "ウェブキャストを視聴するのに最適なウェブキャストの仕様を満たすオペレーティングシステムを検出できませんでした。次のオペレーティングシステムをお勧めします:<linebreak>Windows 7、8、10  および Mac OS X 10.9<linebreak>Windows Vista、XP、2000、NT 4.0、Windows 98、Windows ME、Windows 95、Mac および Unix オペレーティングシステムのユーザはウェブキャストの視聴が困難なことがあることに留意してください。";
+
+msgBrowser["msg1"] = "ウェブキャストを視聴するのに最適なウェブキャストの仕様を満たすブラウザを検出できませんでした。";
+msgBrowser["msg2"] = "<link1start>Firefox<link1end>の最新バージョンにアップグレードするか、または<link2start>Microsoft Internet Explorer<link2end>を利用することをお勧めします。";
+msgBrowser["msg3"] = "Microsoft Internet Explorer の最新バージョンにアップグレードすることをお勧めします。問題があったら、下のアイコンをクリックして、Microsoft Internet Explorer の最新バージョンをダウンロードしてください。";
+msgBrowser["msg4"] = "Microsoft Internet Explorer の最新バージョンにアップグレードすることをお勧めします。問題があったら、下のアイコンをクリックして、Microsoft Internet Explorer の最新バージョンをダウンロードしてください。";
+msgBrowser["msg5"] = "Microsoft Internet Explorer の最新バージョンにアップグレードすることをお勧めします。問題があったら、下のアイコンをクリックして、Microsoft Internet Explorer の最新バージョンをダウンロードしてください。";
+
+msgXMLParser["msg1"] = "弊社アプリケーションのいくつかにはXML Parser が必要です。Internet Explorer 6.0 以上は標準機能としてXML Parser を提供します。<link1start>ここをクリックして、あなたのブラウザをアップグレードしてください<link1end>。";
+
+msgCookies["msg1"] = "あなたのブラウザは現在クッキーを受け入れられません。クッキーはウェブキャストにアクセスするのに必要です。<linkstart>ここ</linkend>を見て、あなたのブラウザでクッキーを受け入れられるように設定を変更してください。";
+
+msgMediaPlayer["msg1"] = " または<link2start>Windows Media<link2end>をクリックして、あなたのコンピュータにストリームメディア機能が設定されていることを確認してください。";
+msgMediaPlayer["msg2"] = "";//Real Player
+msgMediaPlayer["msg3"] = "  次のリンク<linkstart>Windows Media Player<linkend> をクリックして、あなたのコンピュータにストリームメディア機能が設定されていることを確認してください。";
+msgMediaPlayer["msg4"] = "ウェブキャストを最適な状態で聞き、見ることができる環境を提供するために、次のメディアプレイヤーのプラグ・インを推奨しています。<linebreak><listitemstart>Windows Media Player：　あなたのオペレーティングシステムがサポートしている10以上のバージョン。<listitemend>. Windows Media Player をダウンロードするには、下のアイコンをクリックしてください。";
+msgMediaPlayer["msg6"] = "<span style='color:#FF0000;font-weight:bold;'>お使いのシステムは、ビデオコンテンツを閲覧するにあたり、最低限の帯域幅要件を満たしていません。</span>";
+msgMediaPlayer["msg7"] = "<span style='color:#FF0000;font-weight:bold;'>お使いのシステムは、このコンテンツを閲覧するにあたり、最低限の帯域幅要件を満たしていません。</span>";
+
+testMediaPlayer["msg1"] = "<paragraphstart>テストビデオを見られないときは、別のメディアプレーヤーを使ってみてください。<paragraphend><paragraphstart>ビデオを見ることができても、音声が聞こえないときは、あなたのシステムの音量設定とメディアプレーヤーの音量を確認してください。<paragraphend><paragraphstart> ウェブキャストを視聴するためには、次のメディアプレーヤープラグインをお勧めします。<linebreak>Windows Media Player 12 以上および Flash Player 以上<paragraphend>";
+
+}

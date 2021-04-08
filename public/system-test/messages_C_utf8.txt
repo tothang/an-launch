@@ -1,0 +1,72 @@
+//Simplified Chinese messages
+if(paramObj.text_language_id=="C"){
+bandwithImageLanguage="C";
+
+objLang["TestYourSystem"] = "测试系统";
+objLang["Passed"] = "通过";
+objLang["Failed"] = "失败";
+objLang["Warning"] = "警告";
+objLang["BasicData"] = "基本数据";
+objLang["BrowserVersion"] = "浏览器版本";
+objLang["XMLParser"] = "XML解析器";
+objLang["JavaEnabled"] = "启用 Java";
+objLang["OperatingSystem"] = "操作系统";
+objLang["Browser"] = "浏览器";
+objLang["Cookies"] = "Cookie";
+objLang["NEXTSTEP"] = "下一步";
+objLang["MediaPlayer"] = "Media Player";
+objLang["downloadrealplayer"]= "下载 Real Player";
+objLang["downloadwindowsmediaplayer"]= "下载 Windows Media Player";
+objLang["downloadsilverlight"]= "下载 Silverlight";
+objLang["RetryTest"] = "重新测试";
+
+ShockwaveDirecter["msg1"] = "能够检测到插件:";
+ShockwaveDirecter["msg2"] = "支持 Shockwave for Director:";
+ShockwaveDirecter["msg3"] = "支持 Shockwave Flash:";
+ShockwaveDirecter["msg4"] = "支持 QuickTime:";
+ShockwaveDirecter["msg5"] = "支持 RealPlayer:";
+ShockwaveDirecter["msg6"] = "支持 Windows Media Player:";
+
+testjvm["msg1"] = "（2002 年 3 月 4 日发行）";
+testjvm["msg2"] = "所需的最低内部版本号为 <version>";
+testjvm["msg3"] = "此计算机上未安装 Microsoft VM。";
+testjvm["msg4"] = "请从 <url> 下载安装最新版本的 Java 虚拟机";
+testjvm["msg5"] = "此浏览器为 <browsername>";
+testjvm["msg6"] = "Microsoft VM 不适用于此产品。";
+testjvm["msg7"] = "正在从 <vendor> 运行 <version>";
+
+testFlash["msg1"] = "流媒体测试";
+testFlash["msg2"] = "点击播放下面的视频，检测您的计算机是否已正确配置流媒体";
+
+writeCheckForJava["msg1"] = "您的浏览器当前未启用 Java。";
+writeCheckForJava["msg2"] = "您的浏览器没有安装参加网络会议所需要最新版本的 Java 虚拟机。建议单击<linkstart>此处<linkend> 以获取最近更新。";
+
+detectFlash["msg1"] = "我们检测到您没有安装 Flash。请单击<linkstart>此处<linkend>进行安装。";
+
+OS["msg1"] = "我们未能检测到满足最佳网播规范的操作系统来收听和/或观看网播。我们建议使用以下操作系统：<linebreak>Windows 7 Windows 8 Windows 10 和 Mac OS X 10.9<linebreak>。请注意，Windows Vista Windows XP Windows 2000 Windows NT 4.0、Windows 98、Windows ME、Windows 95、Mac 和 Unix 操作系统的用户在收听和/或观看网播时可能会遇到困难。";
+OS["msg2"] = "我们检测到您的操作系统不满足收听和/或观看网播的最佳网播规范。我们建议使用以下操作系统：<linebreak>Windows 7 Windows 8 Windows 10 和 Mac OS X 10.9<linebreak>。请注意，Windows Vista Windows XP Windows 2000 Windows NT 4.0、Windows 98、Windows ME、Windows 95、Mac 和 Unix 操作系统的用户在收听和/或观看网播时可能会遇到困难。有关任何操作系统升级问题，请与您的网络管理员联系。";
+OS["msg3"] = "我们未能检测到满足最佳网播规范的操作系统来收听和/或观看网播。我们建议使用以下操作系统：<linebreak>Windows 7 Windows 8 Windows 10 和 Mac OS X 10.9<linebreak>。请注意，Windows Vista Windows XP Windows 2000 Windows NT 4.0、Windows 98、Windows ME、Windows 95、Mac 和 Unix 操作系统的用户在收听和/或观看网播时可能会遇到困难。";
+OS["msg4"] = "我们未能检测到满足最佳网播规范的操作系统来收听和/或观看网播。我们建议使用以下操作系统：<linebreak>Windows 7 Windows 8 Windows 10 和 Mac OS X 10.9<linebreak>。请注意，Windows Vista Windows XP Windows 2000 Windows NT 4.0、Windows 98、Windows ME、Windows 95、Mac 和 Unix 操作系统的用户在收听和/或观看网播时可能会遇到困难。";
+
+
+msgBrowser["msg1"] = "我们未能检测到满足最佳网播规范的浏览器来收听和/或观看网播。";
+msgBrowser["msg2"] = "我们建议升级到最新版本的 <link1start>Firefox<link1end> 或切换到 <link2start>Microsoft Internet Explorer<link2end>。";
+msgBrowser["msg3"] = " 我们建议您升级到最新版本的 Microsoft Internet Explorer。如果遇到问题，请单击下面的图标进行下载。";
+msgBrowser["msg4"] = " 我们建议您升级到最新版本的 Microsoft Internet Explorer。如果遇到问题，请单击下面的图标进行下载。";
+msgBrowser["msg5"] = " 我们建议您升级到最新版本的 Microsoft Internet Explorer。如果遇到问题，请单击下面的图标进行下载。";
+
+msgXMLParser["msg1"] = "一些应用程序需要 XML 解析器。Internet Explorer 6.0 或更新版本已将其作为标准功能。<link1start>单击此处升级浏览器<link1end>。";
+
+msgCookies["msg1"] = "您的浏览器当前不接受 cookie，访问网播时需要使用 cookie。单击<linkstart>此处</linkend>以获取有关如何使浏览器接受 cookie 的说明。";
+
+msgMediaPlayer["msg1"] = "单击下面其中一个链接：<link2start>Windows Media<link2end> 以验证您的计算机是否已正确配置流媒体。";
+msgMediaPlayer["msg2"] = ""; //Real Player
+msgMediaPlayer["msg3"] = "单击以下链接：<linkstart>Windows Media Player<linkend> 以验证您的计算机是否已正确配置流媒体。";
+msgMediaPlayer["msg4"] = "要获到最佳的收听和/或观看网络讲座效果，我们推荐您使用以下媒体播放器插件：<linebreak><listitemstart>Windows Media Player 12 或操作系统支持的更高版本 <listitemend>。单击以下某个图标下载 Media Player。";
+msgMediaPlayer["msg5"] = "推荐使用以下流媒体测试:";
+msgMediaPlayer["msg6"] = "<span style='color:#FF0000;font-weight:bold;'>您的系统不符合观看视频内容的最低宽带速度要求</span>";
+msgMediaPlayer["msg7"] = "<span style='color:#FF0000;font-weight:bold;'>您的系统不符合观看此内容的最低宽带速度要求。</span>"
+
+testMediaPlayer["msg1"] = "<paragraphstart>如果您看不到测试视频，可能要考虑使用其它媒体播放器来观看网播。<paragraphend><paragraphstart>如果可以看到视频，但听不到声音，请检查系统音量设置和媒体播放器的音量。<paragraphend><paragraphstart>为了获得收听和/或观看网播的最佳体验，我们建议使用以下媒体播放器插件：<linebreak>Windows Media Player 10 或更新版本。<paragraphend>";
+
+}

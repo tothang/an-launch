@@ -1,0 +1,74 @@
+body {
+    background-color: #f5f8fa;
+}
+
+.sortable-handle {
+    cursor: grab;
+}
+
+.plain {
+    background: $white;
+
+    &.box-content {
+        height: 85vh;
+        margin-bottom: 25px;
+        overflow-y: scroll;
+        padding: 15px;
+    }
+}
+
+.status-icon {
+    border-radius: 50%;
+    display: inline-block;
+    height: 16px;
+    vertical-align: middle;
+    width: 16px;
+
+    &.up {
+        background: $brand-success;
+    }
+
+    &.down {
+        background: $brand-danger;
+    }
+
+    &.warning {
+        background: $brand-warning;
+    }
+}
+
+.status-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.small-box {
+    transition: ease-in-out 0.3s;
+    height: 100%;
+    .icon {
+        font-size: 90px !important;
+        &--small {
+            font-size: 50px !important;
+        }
+        &--email {
+            top: -3px;
+            right: 15px;
+            color: #fff;
+        }
+        &--report {
+            top: -3px;
+            right: 15px;
+            color: #fff;
+            font-size: 30px;
+        }
+        &--stream {
+            top: -3px;
+            right: 15px;
+        }
+    }
+    &--selectable {
+        &:hover {
+            box-shadow: 0 0 15px 5px #a2a2a2;
+        }
+    }
+}

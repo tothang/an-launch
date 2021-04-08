@@ -1,0 +1,10 @@
+client: 'Example Client'
+contact:
+    phone: '1234567890'
+    email:
+        local: local@example.com
+start: '2021-01-01 09:00'
+end: '2021-01-01 10:00'
+date-start: 'Friday 1st January 2021'
+time-end: '10:00am'
+dates-count: 1

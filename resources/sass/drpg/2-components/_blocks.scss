@@ -1,0 +1,28 @@
+.block {
+  padding: 1rem;
+
+  &__content {
+    margin-top: 30px;
+  }
+
+  &__header {
+    font: {
+      family: NTF-Grand-Regular, sans-serif;
+      size: 2rem;
+    }
+    text-transform: uppercase;
+  }
+
+  & + &__header {
+    margin-top: .5rem;
+  }
+
+  &--primary {
+    padding: 2rem;
+    @include primary-gradient();
+  }
+
+  &--boxed {
+    border: 2px solid $primary;
+  }
+}

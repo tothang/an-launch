@@ -1,0 +1,38 @@
+#: locale=en
+
+## Tour
+
+### Title
+tour.name = DRPG | 3D Virtual Tour
+
+## Media
+
+### Title
+panorama_6091840E_6D79_D0E6_41D4_FC0E25AAE782.label = foyer
+panorama_620CCE14_6D7E_30FA_41D1_7EE1C8B4FEE4.label = expo
+panorama_620D33BB_6D7E_772E_41C7_B4868B452FD7.label = auditorum
+panorama_62124A5E_6D7E_7166_41AA_9BEB68DEED3E.label = breakoutOne
+panorama_627DFDEE_6D7E_5326_41D0_B3653D3AB11E.label = expoThree
+panorama_638BD318_6D7E_D0EA_41D1_41A18CFB7AFA.label = breakoutTwo
+panorama_63AC8667_6D7E_3126_41DA_B4E472E600A8.label = breakoutFoyer
+panorama_63B7D7BE_6D7F_DF26_41B8_0902F33CFE67.label = expoTwo
+panorama_63C43925_6D7E_D0DA_419B_8AB5B73D6648.label = breakoutThree
+video_89937F2F_9B16_6D11_41D0_7930D4B6448E.label = big-talk-animation_muted
+video_8BFFB760_9B0B_9D0F_41DD_17C134D3554E.label = Big_Talk_Animation_Muted
+video_8E06043C_9D0E_B377_41CF_236FFFD4B5A0.label = DRPG_Global_Preview
+video_8E56A3E1_9D0E_F511_41D2_B14558976424.label = Big_on_the_Little_Things_Preview
+video_962B2CB5_9B0E_9371_41DD_066DF2A0FBC9.label = Big_Talk_Animation
+video_F3830790_E702_D2B1_41C2_581327E1CB80.label = world
+video_F4BE6533_E707_D7F7_41B5_CDD710E972B5.label = football
+
+## Hotspot
+
+### Tooltip
+HotspotPanoramaOverlayArea_CF7FFA27_DD31_EFD5_41EA_EDAC5FCDC637.toolTip = Big on the Little Things
+
+## Action
+
+### URL
+LinkBehaviour_0CD63FBE_02CC_C522_4185_28B24B2B8D9D.source = https://virtual-products-base.test/experience#media-name=breakoutThree
+LinkBehaviour_0FBE589D_02CF_4BE6_4175_C12B5F7F5809.source = http://virtual-products-base.test/experience#media-name=breakoutTwo
+LinkBehaviour_139CCF46_02F3_3D67_4174_BE5822ACB127.source = http://virtual-products-base.test/experience#media-name=breakoutOne

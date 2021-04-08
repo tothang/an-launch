@@ -1,0 +1,11 @@
+.alert {
+    &-info {
+        border: none;
+        background-color: $primary;
+        color: $dark;
+    }
+
+    ul {
+        margin-bottom: 0;
+    }
+}

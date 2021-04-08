@@ -1,0 +1,37 @@
+.btn{
+  border-radius: 0;
+  &.btn-red{
+    background-color: $red;
+    color: $white;
+  }
+  &.btn-green{
+    background-color: $green;
+    color: $white;
+  }
+  &.btn-white{
+    background-color: $white;
+    border: 2px solid $grey;
+    color: $black;
+  }
+  &.btn-grey{
+    background-color: $grey;
+    border: 2px solid $grey;
+    color: $black;
+  }
+  &.btn-black{
+    background-color: $black;
+    border: 2px solid $black;
+    color: $white;
+  }
+  &.btn-blue{
+    background-color: $blue;
+    border: 2px solid $blue;
+    color: $white;
+  }
+  &.btn-stream {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+}

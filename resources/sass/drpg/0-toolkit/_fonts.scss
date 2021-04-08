@@ -1,0 +1,16 @@
+$FONT_PATH: '/fonts/';
+
+$FONT_FACES: (
+  'NTF-Grand-Bold',
+  'NTF-Grand-Light',
+  'NTF-Grand-Regular',
+  'BebasNeue-Bold',
+  'BebasNeue-Regular',
+  'DINNextLTPro-Bold',
+  'DINNextLTPro-Light',
+  'DINNextLTPro-Regular',
+);
+
+@function font-get($weight-key) {
+  @return '#{$weight-key}', sans-serif;
+}

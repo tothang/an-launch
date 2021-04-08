@@ -1,0 +1,27 @@
+@import 'commons/index';
+@import 'hyster/index';
+@import 'hyster/welcome';
+@import 'hyster/broadcast';
+@import 'hyster/holding';
+@import 'hyster/confirmation-language';
+@import 'hyster/password-creation';
+@import 'hyster/register';
+@import 'hyster/onboarding';
+@import 'hyster/reset-password';
+@import 'hyster/notification';
+@import 'hyster/presenters';
+@import 'hyster/faq';
+@import 'hyster/agenda';
+
+* {
+  font-family: "BebasNeue-Regular", Arial, Helvetica, sans-serif;
+}
+
+.btn {
+  border-radius: 0px !important;
+
+  &:hover {
+    background: #FFE34B!important;
+    color: #000;
+  }
+}

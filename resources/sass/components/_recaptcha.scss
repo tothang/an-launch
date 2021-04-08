@@ -1,0 +1,15 @@
+.recaptcha-container {
+    & > div > div  {
+        height: 80px !important;
+        margin-bottom: 10px;
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+    }
+    &-left > div > div {
+        justify-content: flex-start !important;
+    }
+    &-right > div > div {
+        justify-content: flex-end !important;
+    }
+}

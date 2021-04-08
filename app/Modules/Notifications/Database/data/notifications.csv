@@ -1,0 +1,3 @@
+title,body,link,send_at,segment_id
+test notification,this is a test notification,,NULL,1
+test notification 2,this is another test notification,,NULL,2

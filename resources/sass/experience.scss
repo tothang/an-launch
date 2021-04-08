@@ -1,0 +1,11 @@
+// NPM Packages
+@import "vendor";
+
+// Base Styles
+@import "base";
+
+// Laravel Modules
+@import "modules";
+
+// Experience specific styles
+@import "../../app/Modules/Experience/Resources/Assets/scss/experience";

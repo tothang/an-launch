@@ -1,0 +1,16 @@
+var languageMapnewToOld = new Array();
+languageMapnewToOld["zh"] = "C";
+languageMapnewToOld["da"] = "D";
+languageMapnewToOld["nl"] = "U";
+languageMapnewToOld["en"] = "E";
+languageMapnewToOld["fi"] = "N";
+languageMapnewToOld["fr"] = "F";
+languageMapnewToOld["de"] = "G";
+languageMapnewToOld["it"] = "I";
+languageMapnewToOld["ja"] = "J";
+languageMapnewToOld["ko"] = "K";
+languageMapnewToOld["pt"] = "P";
+languageMapnewToOld["es"] = "S";
+languageMapnewToOld["sv"] = "W";
+languageMapnewToOld["ru"] = "R";
+languageMapnewToOld["tr"] = "T";

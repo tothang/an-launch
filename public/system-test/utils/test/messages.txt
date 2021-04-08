@@ -1,0 +1,110 @@
+var objLang = new Object();
+var ShockwaveDirecter = new Object();
+var testjvm = new Object();
+var writeCheckForJava = new Object();
+var detectFlash = new Object();
+var OS = new Object();
+var msgBrowser = new Object();
+var msgXMLParser = new Object();
+var msgCookies = new Object();
+var msgMediaPlayer = new Object();
+var testMediaPlayer = new Object();
+var testFlash = new Object();
+objLang["ShockwaveDirecter"] = ShockwaveDirecter;
+objLang["testjvm"] = testjvm;
+objLang["writeCheckForJava"] = writeCheckForJava;
+objLang["detectFlash"] = detectFlash;
+objLang["OS"] = OS;
+objLang["msgBrowser"] = msgBrowser;
+objLang["msgXMLParser"] = msgXMLParser;
+objLang["msgCookies"] = msgCookies;
+objLang["msgMediaPlayer"] = msgMediaPlayer;
+objLang["testMediaPlayer"] = testMediaPlayer;
+
+//English messages
+objLang["TestYourSystem"] = "Test Your System";
+objLang["SystemTest"] = "System Test";
+objLang["Passed"] = "Passed";
+objLang["Failed"] = "Failed";
+objLang["Warning"] = "Warning";
+objLang["BasicData"] = "Basic Data";
+objLang["Flash"] = "Flash";
+objLang["BrowserVersion"] = "Browser Version";
+objLang["XMLParser"] = "XML Parser";
+objLang["JavaEnabled"] = "Java Enabled";
+objLang["OperatingSystem"] = "Operating System";
+objLang["Browser"] = "Browser";
+objLang["Cookies"] = "Cookies";
+objLang["NEXTSTEP"] = "NEXT STEP";
+objLang["MediaPlayer"] = "Media Player";
+objLang["downloadrealplayer"]= "Download Real Player";
+objLang["downloadwindowsmediaplayer"]= "Download Windows Media Player";
+objLang["downloadsilverlight"]= "Download Silverlight";
+objLang["RetryTest"]= "Retry Test";
+
+objLang["SystemTestMsg1"]="This page tests your system to verify that it meets the requirements to successfully view this presentation.  If any tests fail, please follow the instructions provided to correct the problem before viewing the presentation.  This test can be repeated by clicking on the \"<i>Test Your System</i>\" link on the Lobby page."
+
+ShockwaveDirecter["msg1"] = "Can Detect Plugins:";
+ShockwaveDirecter["msg2"] = "Supports Shockwave for Director:";
+ShockwaveDirecter["msg3"] = "Supports Shockwave Flash:";
+ShockwaveDirecter["msg4"] = "Supports QuickTime:";
+ShockwaveDirecter["msg5"] = "Supports RealPlayer:";
+ShockwaveDirecter["msg6"] = "Supports Windows Media Player:";
+
+testjvm["msg1"] = "(released March 4, 2002)";
+testjvm["msg2"] = "The minimum required build number is <version>";
+testjvm["msg3"] = "The Microsoft VM is not installed on this computer.";
+testjvm["msg4"] = "Please install the latest version of the Java Virtual Machine from <url>";
+testjvm["msg5"] = "This browser is <browsername>";
+testjvm["msg6"] = "Microsoft VM is not available for this product.";
+testjvm["msg7"] = "You are running <version> from <vendor>";
+
+writeCheckForJava["msg1"] = "Your browser is not currently Java enabled.";
+writeCheckForJava["msg2"] = "Your browser does not have a current version of Java Virtual Machine, which is required to participate in webconferences. We recommend that you update your system if possible by clicking <linkstart>here<linkend> to get the latest updates.";
+
+detectFlash["msg1"] = "We have detected that you do not have the latest version of Flash installed. Please click <linkstart>here<linkend> to install it.";
+
+OS["msg1"] = "We were unable to detect a configuration that meets the minimum specifications for listening to and/or viewing webinars. We recommend the following operating systems: Windows 10, Windows 8, Windows 7, and the latest Mac OS X.<linebreak>Please note that users with older versions of Windows (Windows Vista, XP, 2000, Windows NT 4.0, Windows 98,  Windows ME, Windows 95), Mac, Linux and Unix operating systems may experience difficulties listening to and/or viewing webinars.";
+OS["msg2"] = "We have detected that your operating system does not meet the optimal webinar specifications for listening to and/or viewing webinars. We recommend the following operating systems:Windows 10, Windows 8, Windows 7, and the latest Mac OS X.<linebreak>Please note that users with older versions of Windows (Windows Vista, XP, 2000, Windows NT 4.0, Windows 98,  Windows ME, Windows 95), Mac, Linux and Unix operating systems may experience difficulties listening to and/or viewing webinars.";
+OS["msg3"] = "We were unable to detect your exact Mac operating system version. Certain Mac operating systems may or may not provide optimal performance for viewing/listening to webinars.  For optimal performance we recommend the latest Mac OS X";
+OS["msg4"] = "We were unable to detect your exact Linux operating system version. Certain Linux operating systems may or may not provide optimal performance for viewing/listening to webinars. For optimal performance we recommend Red Hat Linux 9";
+
+msgBrowser["msg1"] = "We were unable to detect a configuration that meets the minimum specifications for listening to and/or viewing webinars. We recommend the following operating systems:Windows 10, Windows 8, Windows 7, and the latest Mac OS X. <linebreak>Please note that users with older versions of Windows (Windows Vista, XP, 2000, Windows NT 4.0, Windows 98,  Windows ME, Windows 95), Mac, Linux and Unix operating systems may experience difficulties listening to and/or viewing webinars.";
+msgBrowser["msg2"] = "We recommend that you upgrade to the latest version of <link1start>Firefox<link1end> or switch to <link2start>Microsoft Internet Explorer<link2end>.";
+msgBrowser["msg3"] = "We recommend that you upgrade to the latest version of <link2start>Microsoft Internet Explorer<link2end> or <link1start>Firefox<link1end>.";
+msgBrowser["msg4"] = "You need a recent version of the Firefox browser for listening to and/or viewing this webinar. We recommend that you <a href='http://www.mozilla.org/products/firefox/all' target=_blank>click here</a> to upgrade to the latest version.";
+msgBrowser["msg5"] = "We recommend that you upgrade to the latest version of <link1start>Firefox<link1end>,<link2start>Google Chrome<link2end>, or <link3start>Microsoft Internet Explorer<link3end>.";
+
+msgXMLParser["msg1"] = "Some of our applications require an XML Parser. Internet Explorer 6.0 later provide this as a standard feature.  <link1start>Click here to upgrade your browser<link1end>.";
+
+msgCookies["msg1"] = "Your browser is not currently enabled to accept cookies, which are required to access webinars. Click <linkstart>here</linkend> for instructions on how to enable your browser to accept cookies.";
+
+msgMediaPlayer["msg1"] = "Click on the following link: <link2start>Windows Media<link2end> to verify that your computer is configured to stream media.";
+msgMediaPlayer["msg2"] = "";
+msgMediaPlayer["msg3"] = "Click on the following link: <linkstart>Windows Media<linkend> to verify that your computer is configured to stream media.";
+msgMediaPlayer["msg4"] = "In order to provide an optimal experience listening to and/or viewing webinars, we recommend the following media player plug-in:<linebreak><listitemstart>Windows Media Player 12 or higher supported by your operating system <listitemend>. Click on the icon to download Windows Media Player.";
+msgMediaPlayer["msg5"] = "Recommended Streaming Media Tests:";
+msgMediaPlayer["msg6"] = "<span style='color:#FF0000;font-weight:bold;'>Your system does not meet the Minimum Bandwidth Requirement for viewing the Video Option.</span>";
+msgMediaPlayer["msg7"] = "<span style='color:#FF0000;font-weight:bold;'>Your system does not meet the Minimum Bandwidth Requirement for viewing this content.</span>";
+//for Silverlight
+msgMediaPlayer["msg1Alt"] = "Click on the following link: <link2start>Windows Media <link2end> to verify that your computer is configured to stream media.";
+msgMediaPlayer["msg3Alt"] = "Click on the following link: <linkstart>Windows Media<linkend> to verify that your computer is configured to stream media.";
+msgMediaPlayer["msg4Alt"] = "In order to provide an optimal experience listening to and/or viewing webinars, we recommend the following media player plug-in:<linebreak><listitemstart>Windows Media Player 12 or higher supported by your operating system <listitemend>. Click on the icon to download Windows Media Player.";
+
+testMediaPlayer["msg1"] = "<paragraphstart>If you were unable to view the test video,you may want to consider viewing the " 
+                + "webinar using an alternative media player.<paragraphend><paragraphstart>If you can see video but you can't "
+                + "hear anything, please check your system volume settings and the volume on the media player.<paragraphend>"
+                + "<paragraphstart>In order to provide an optimal experience listening to and/or viewing webinars, we "
+                + "recommend the following media player plug-in:<linebreak>Windows Media Player 12 or above.<paragraphend>";
+
+testMediaPlayer["nostripting"] = "<br><br><span style='color:#FF0000;font-weight:bold;'>WARNING: Your media player does not allow scripting. Scripting is required for streaming events to perform properly. Please re-install your media player to correct your configuration.</span>";
+
+testMediaPlayer["msg1Alt"] = "<paragraphstart>If you were unable to view the test video,you may want to consider viewing the " 
+                + "webinar using an alternative media player.<paragraphend><paragraphstart>If you can see video but you can't "
+                + "hear anything, please check your system volume settings and the volume on the media player.<paragraphend>"
+                + "<paragraphstart>In order to provide an optimal experience listening to and/or viewing webinars, we "
+                + "recommend the following media player plug-in:<linebreak>Windows Media Player 12 or above.<paragraphend>";
+
+
+testFlash["msg1"] = "Flash Test Video:";
+testFlash["msg2"] = "a short test video with audio should play below";

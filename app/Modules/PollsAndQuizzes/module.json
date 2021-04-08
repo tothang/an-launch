@@ -1,0 +1,6 @@
+{
+    "name": "PollsAndQuizzes",
+    "slug": "polls-and-quizzes",
+    "version": "1.0",
+    "description": "Allows users to answer interactive polls and quizzes"
+}

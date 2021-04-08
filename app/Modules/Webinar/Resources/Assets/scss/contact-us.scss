@@ -1,0 +1,361 @@
+.brand--yale {
+  .contact-us-bg {
+    .event-container {
+      .header {
+
+        span {
+          display: block;
+        }
+      }
+
+      .content {
+        .text-content {
+          padding-bottom: 25px;
+          margin-bottom: 25px;
+          border-bottom: solid 3px #E9B400;
+          font-weight: 700;
+          color: #3E4545;
+        }
+
+        .text-description {
+          color: #3E4545;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 992px) {
+    .contact-us-bg {
+      background-image: url("/img/yale/back-ground2.png"), url("/img/yale/back-ground.png");
+      background-repeat: no-repeat, no-repeat;
+      background-size: 100% 100%;
+      background-position: top right -60px, bottom left;
+
+      .event-container {
+        padding-left: 100px;
+
+        .event-container-bg {
+          background: transparent;
+        }
+
+        .header {
+          padding-top: 150px;
+          font-size: 75px;
+
+          span {
+            //padding-left: 150px;
+          }
+        }
+
+        .content {
+          //padding-left: 150px;
+
+          .text-content {
+            max-width: 80%;
+            padding-top: 50px;
+            font-size: 28px;
+          }
+
+          .text-description {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px)  {
+    .contact-us-bg {
+      background-image: url("/img/yale/bg-tablet.png"),  url("/img/yale/bg-tb-mobile.png");
+      background-position: top 40% right 41%, bottom left;
+      background-repeat: no-repeat, no-repeat;
+      background-size: 230%, 100%;
+
+      .event-container {
+        .event-container-bg {
+          background: transparent;
+        }
+
+        .header {
+          padding-top: 100px;
+          font-size: 80px;
+          letter-spacing: -5px;
+
+          span {
+            padding-left: 40px;
+          }
+        }
+
+        .content {
+          padding-left: 40px;
+
+          .text-content {
+            padding-top: 50px;
+            font-size: 28px;
+            max-width: 80%;
+          }
+
+          .text-description {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+    .contact-us-bg {
+      background-image: url("/img/yale/bg-tablet.png"),  url("/img/yale/bg-tb-mobile.png");
+      background-position: top 40% right 41%, bottom left;
+      background-repeat: no-repeat, no-repeat;
+      background-size: 230%, 100%;
+
+      .event-container {
+        .event-container-bg {
+          background: transparent;
+        }
+
+        .header {
+          padding-top: 100px;
+          font-size: 80px;
+          letter-spacing: -5px;
+
+          span {
+            padding-left: 40px;
+          }
+        }
+
+        .content {
+          padding-left: 40px;
+
+          .text-content {
+            padding-top: 50px;
+            font-size: 28px;
+            max-width: 80%;
+          }
+
+          .text-description {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .contact-us-bg {
+      .event-container {
+        height: 100vh;
+
+        .row {
+          height: 100vh;
+
+          .header {
+            padding-top: 230px;
+
+            span {
+              width: 100%;
+              padding-left: 15px;
+              padding-right: 15px;
+            }
+          }
+
+          .content {
+            padding-left: 15px;
+            padding-right: 15px;
+
+            .text-content {
+              font-size: 20px;
+            }
+
+            .text-description {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.brand--hyster {
+  .contact-us-bg {
+    .event-container {
+      background: transparent!important;
+
+      .diagonal-line {
+        height: 84vh;
+        border-left: 15px solid #ffe34b;
+      }
+
+      .header {
+        span {
+          display: block;
+        }
+      }
+
+      .content {
+        .text-content {
+          margin-bottom: 25px;
+          font-family: Arial;
+          font-weight: 700;
+          color: #FFE34B;
+        }
+
+        .text-description {
+          font-family: Arial;
+          color: #FFFFFF;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 992px) {
+    .contact-us-bg {
+      background-image:  url("/img/hyster/contact/bg-tablet.png");
+      background-repeat: no-repeat;
+      background-position: top -30% right;
+      background-size: 82%;
+
+      .event-container {
+        .event-container-bg {
+          margin-left: 12%;
+        }
+
+        .header {
+          padding-top: 200px;
+          padding-left: 50px;
+          font-size: 75px;
+
+          span {
+            margin-bottom: 5px;
+          }
+        }
+
+        .content {
+          width: 60%;
+          padding-top: 15px;
+          padding-left: 50px;
+
+          .text-content {
+            font-size: 22px;
+          }
+
+          .text-description {
+            font-size: 16px;
+            line-height: 27px;
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .contact-us-bg {
+      background-image:  url("/img/hyster/contact/bg-tablet.png");
+      background-repeat: no-repeat;
+      background-position: top right;
+      background-size: 110%;
+
+      .event-container {
+        .diagonal-line {
+          height: 88vh;
+        }
+
+        .event-container-bg {
+          margin-left: 13%;
+        }
+
+        .header {
+          padding-top: 230px;
+          padding-left: 25px;
+          font-size: 48px;
+        }
+
+        .content {
+          padding-left: 25px;
+
+          .text-content {
+            font-size: 24px;
+          }
+
+          .text-description {
+            font-size: 16px;
+            line-height: 27px;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+    .contact-us-bg {
+      background-image:  url("/img/hyster/contact/bg-tablet.png");
+      background-repeat: no-repeat;
+      background-position: top right;
+      background-size: 110%;
+
+      .event-container {
+        .diagonal-line {
+          height: 88vh;
+        }
+
+        .event-container-bg {
+          margin-left: 13%;
+        }
+
+        .header {
+          padding-top: 230px;
+          padding-left: 25px;
+          font-size: 48px;
+        }
+
+        .content {
+          padding-left: 25px;
+
+          .text-content {
+            font-size: 24px;
+          }
+
+          .text-description {
+            font-size: 16px;
+            line-height: 27px;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .contact-us-bg {
+      .event-container {
+        .diagonal-line {
+          display: none;
+        }
+
+        .header {
+          margin-bottom: 20px;
+          margin-right: -10%;
+          font-size: 55px;
+          background-image: url("/img/hyster/contact/bg-tablet.png")!important;
+          background-size: 150%!important;
+          background-position: top right!important;
+        }
+
+        .content {
+          .text-content {
+            font-size: 24px;
+            line-height: 1.25;
+            letter-spacing: -1px;
+          }
+
+          .text-description {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

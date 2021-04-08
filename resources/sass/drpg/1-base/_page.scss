@@ -1,0 +1,22 @@
+.page {
+  &--light {
+    background-color: $light;
+    color: $dark;
+  }
+
+  &--dark {
+    background-color: $dark;
+    color: $light;
+  }
+
+  &__wrapper {
+    min-height: calc(100vh - #{$footer-height + $footer-margin});
+    overflow-x: hidden;
+  }
+
+  @include breakpoint('tl') {
+    &__content {
+      padding: 0 $toggle-height-lg;
+    }
+  }
+}

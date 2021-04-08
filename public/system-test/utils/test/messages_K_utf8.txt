@@ -1,0 +1,67 @@
+// Korean messages
+if(paramObj.text_language_id=="K"){
+bandwithImageLanguage="K";
+
+objLang["TestYourSystem"] = "시스템 테스트";
+objLang["Passed"] = "통과";
+objLang["Failed"] = "실패";
+objLang["Warning"] = "경고";
+objLang["BasicData"] = "기본 데이터";
+objLang["BrowserVersion"] = "브라우저 버전";
+objLang["XMLParser"] = "XML 파서";
+objLang["JavaEnabled"] = "Java 사용 가능";
+objLang["OperatingSystem"] = "운영 시스템";
+objLang["Browser"] = "브라우저";
+objLang["Cookies"] = "쿠키";
+objLang["NEXTSTEP"] = "다음 단계";
+objLang["MediaPlayer"] = "Media Player";
+objLang["downloadrealplayer"]= "Media Player를 다운로드하십시오";
+objLang["downloadwindowsmediaplayer"]= "Windows Media Player를 다운로드하십시오";
+objLang["downloadsilverlight"]= "Silverlight를 다운로드하십시오";
+
+ShockwaveDirecter["msg1"] = "플러그인 설치됨:";
+ShockwaveDirecter["msg2"] = "Shockwave for Director 지원:";
+ShockwaveDirecter["msg3"] = "Shockwave Flash 지원:";
+ShockwaveDirecter["msg4"] = "QuickTime 지원:";
+ShockwaveDirecter["msg5"] = "RealPlayer 지원:";
+ShockwaveDirecter["msg6"] = "Windows Media Player 지원:";
+
+testjvm["msg1"] = "2002년3월4일 발표";
+testjvm["msg2"] = "최소 요구되는 빌드 번호는<version>입니다";
+testjvm["msg3"] = "Microsoft VM이 이 컴퓨터에 설치되지 않았습니다.";
+testjvm["msg4"] = "<url>에서 최신 버전의 Java Virtual Machine를 설치하십시오.";
+testjvm["msg5"] = "이 브라우저는 <browsername>입니다.";
+testjvm["msg6"] = "Microsoft VM을 이 제품에 사용할 수 없습니다.";
+testjvm["msg7"] = "<vendor>의 <version>가 실행되고 있습니다.";
+
+writeCheckForJava["msg1"] = "귀하의 브라우저는 Java를 실행할 수 없습니다.";
+writeCheckForJava["msg2"] = "귀하의 브라우저는 최신 버전의 Java Virtual Machine가 없습니다. 웹  캐스트를 실행하려면 이것이 반드시 필요합니다. <linkstart>여기<linkend>를 클릭하여 시스템을 최신 업데이트를 받는 것을 권장합니다.";
+ 
+detectFlash["msg1"] = "귀하의 컴퓨터에는 플래쉬가 설치되지 않았습니다.<linkstart>여기<linkend>를 클릭하여 설치하십시오.";
+
+OS["msg1"] = "우리는 웹 캐스팅을 청취하는 것과/혹은 보는 것에 사용되는 최고 웹 캐스팅 규범을 만족할 수 있는 운영시스템을 검사하지 못했습니다. 우리는 아래와 같은 운영시스템을 사용할 것 건의합니다: <linebreak>Windows 7、8、10 과 Mac OS X 10.9<linebreak>。Windows Vista、XP、2000、NT 4.0、Windows 98、Windows ME、Windows 95、Mac 와 Unix운영시스템의 사용자가 웹 캐스팅을 청취하거나 볼 때 어려움을 만날 수 있는 것을 주의하십시오."; 
+OS["msg2"] = "우리는 당신의 운영시스템이 웹 캐스팅을 청취하거나 볼 최고 웹 캐스팅 규범을 만족할 수 없는 것 검사했습니다. 우리는 아래와 같은 운영시스템을 사용할 것 건의합니다: <linebreak>Windows 7、8、10 과 Mac OS X 10.9<linebreak>。Windows Vista、XP、2000、NT 4.0、Windows 98、Windows ME、Windows 95、Mac 와 Unix운영시스템의 사용자가 웹 캐스팅을 청취하거나 볼 때 어려움을 만날 수 있는 것을 주의하십시오.";
+OS["msg3"] = "우리는 웹 캐스팅을 청취하는 것과/혹은 보는 것에 사용되는 최고 웹 캐스팅 규범을 만족할 수 있는 운영시스템을 검사하지 못했습니다. 우리는 아래와 같은 운영시스템을 사용할 것 건의합니다: <linebreak>Windows 7、8、10 과 Mac OS X 10.9<linebreak>。Windows Vista、XP、2000、NT 4.0、Windows 98、Windows ME、Windows 95、Mac 와 Unix운영시스템의 사용자가 웹 캐스팅을 청취하거나 볼 때 어려움을 만날 수 있는 것을 주의하십시오."; 
+OS["msg4"] = "우리는 웹 캐스팅을 청취하는 것과/혹은 보는 것에 사용되는 최고 웹 캐스팅 규범을 만족할 수 있는 운영시스템을 검사하지 못했습니다. 우리는 아래와 같은 운영시스템을 사용할 것 건의합니다: <linebreak>Windows 7、8、10 과 Mac OS X 10.9<linebreak>。Windows Vista、XP、2000、NT 4.0、Windows 98、Windows ME、Windows 95、Mac 와 Unix운영시스템의 사용자가 웹 캐스팅을 청취하거나 볼 때 어려움을 만날 수 있는 것을 주의하십시오."; 
+
+
+msgBrowser["msg1"] = "우리는 웹 캐스팅을 청취하는 것과/혹은 보는 것에 사용되는 최고 웹 캐스팅 규범을 만족할 수 있는 브라우저를 검사하지 못했습니다.";
+msgBrowser["msg2"] = "우리는 최신 버전의 <link1start>Firefox<link1end>에 승급하거나 <link2start>Microsoft Internet Explorer<link2end>에 교체하는 것을 건의합니다.";
+msgBrowser["msg3"] = "우리는 당신이 최신 버전의Microsoft Internet Explorer에 승급하는 것을 건의합니다. 만약 문제에 부딪치면 아래의 아이콘을 클릭하여 다운로드를 하십시오.";
+msgBrowser["msg4"] = "우리는 당신이 최신 버전의Microsoft Internet Explorer에 승급하는 것을 건의합니다. 만약 문제에 부딪치면 아래의 아이콘을 클릭하여 다운로드를 하십시오.";
+msgBrowser["msg5"] = "우리는 당신이 최신 버전의Microsoft Internet Explorer에 승급하는 것을 건의합니다. 만약 문제에 부딪치면 아래의 아이콘을 클릭하여 다운로드를 하십시오.";
+ 
+msgXMLParser["msg1"] = "일부 응용 프로그램은 XML Parser가 필요합니다. Internet Explorer 6.0 또는 그 이상 버전은 이를 표준 기능으로 제공합니다. <link1start>여기를 클릭하여 브라우저를 업그레이드하십시오<link1end>.";
+
+msgCookies["msg1"] = "귀하의 브라우저는 현재 쿠키를 받아들이도록 설정되어 있지 않습니다. 웹 캐스트를 실행하려면 쿠키의 사용이 필요합니다. <linkstart>여기</linkend>를 클릭하여 브라우저에서 쿠키를 받아들이게 하는 방법을 읽어보십시오.";
+
+msgMediaPlayer["msg1"] = "다음의 링크  혹은 <link2start>Windows Media Player<link2end> 중 하나를 클릭하여 컴퓨터에 미디어 스트림이 잘 실행될 수 있도록 설정되었는지 확인합니다."; 
+msgMediaPlayer["msg2"] = "다음의 링크 를 클릭하여 컴퓨터에 미디어 스트림이 잘 실행될 수 있도록 설정되었는지 확인합니다.";
+msgMediaPlayer["msg3"] = "다음의 링크 를 클릭하여 컴퓨터에 미디어 스트림이 잘 실행될 수 있도록 설정되었는지 확인합니다.";
+msgMediaPlayer["msg4"] = "인터넷 방송을 최적의 상태에서 시청하려면 다음 미디어 플레이어 플러그인을 사용하는 것이 좋습니다.<linebreak><listitemstart>사용자 운영 체제에서 지원하는 Windows Media Player 12 이상 <listitemend><listitemstart>사용자 운영 체제에서 지원하는  이상<listitemend>.Windows Media Player 또는 를 다운로드하려면 아이콘 중 하나를 누르십시오.";
+msgMediaPlayer["msg6"] = "<span style='color:#FF0000;font-weight:bold;'>시스템이 동영상 컨텐츠를 보는 데 필요한 최소 대역폭 요구사항을 충족하지 않습니다.</span>";
+msgMediaPlayer["msg7"] = "<span style='color:#FF0000;font-weight:bold;'>시스템이 본 컨텐츠를 보는 데 필요한 최소 대역폭 요구사항을 충족하지 않습니다.</span>";
+
+testMediaPlayer["msg1"] = "<paragraphstart>테스트 비디오를 볼 수 없으면 다른 미디어 플레이어를 사용하여 웹 캐스트를 보는 것을 고려해야 할 것입니다.<paragraphend><paragraphstart>만약 비디오를 볼 수 있지만 소리를 듣지 못하면 시스템 음량과 미디어 플레이어 음량을 점검해 주십시오.<paragraphend><paragraphstart>최적의 웹 캐스트 시청을 위해 다음의 미디어 플레이어 플러그인 <linebreak>Windows Media Player 12 혹은 더 새로운 버전 및 혹은 더 새로운 버전의 사용을 권장합니다.<paragraphend>";
+
+}

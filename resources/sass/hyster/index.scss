@@ -1,0 +1,417 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.bg {
+  background-image: url("/img/hyster/group-8@3x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  @media (min-width: 992px) {
+    min-height: 800px;
+  }
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.modal-backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-color: #ffe34b;
+  background-image: -webkit-linear-gradient(
+    -25deg,
+    #ffe34b 0%,
+    #ffe34b 45%,
+    #292423 45%,
+    #292423 45%
+  );
+  background-image: linear-gradient(
+    -25deg,
+    #ffe34b 0%,
+    #ffe34b 45%,
+    #292423 45%,
+    #292423 45%
+  );
+}
+
+.backdrop-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+}
+
+.backdrop-logo {
+  padding: 30px 0 30px 0px;
+
+  a {
+    display: flex;
+  }
+
+  img {
+    height: 70px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 991px) {
+  .container-fluid {
+    display: block !important;
+  }
+  .navbar-brand {
+    padding: 20px 0px !important;
+  }
+  .navbar-toggler {
+    float: right;
+  }
+}
+
+@media (min-width: 601px) {
+  .navbar-brand-desktop {
+    display: inline-flex;
+  }
+  .navbar-brand-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar-brand-desktop {
+    display: none;
+  }
+  .navbar-brand-mobile {
+    display: block;
+    margin-left: 0px;
+  }
+  .navbar-toggler {
+    margin-bottom: 30px !important;
+  }
+}
+
+.onboarding {
+  .navbar {
+    margin-top: 30px;
+
+    @media (min-width: 992px) {
+      margin-top: 0;
+    }
+  }
+}
+
+.navbar {
+  //background-image: linear-gradient(to top, rgba(0, 0, 0, 0), #000);
+  transform: rotate(-360deg);
+  align-items: flex-start;
+
+  .container-fluid {
+    flex-direction: column;
+    padding: 0 30px;
+    // background-color: #ffe34b;
+    // padding: 20px 20px calc(100vh - 383px) 20px;
+
+    @media (min-width: 992px) {
+      flex-direction: row;
+    }
+  }
+
+  .nav-item {
+    margin: 0px 10px;
+    text-transform: uppercase;
+    font-family: Impact;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 21px;
+    letter-spacing: 0.27px;
+    color: #ffe34b;
+
+    @media (max-width: 600px) {
+      font-family: BebasNeue-Bold;
+      font-size: 36px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.08;
+      letter-spacing: -1.15px;
+      text-align: center;
+      color: #000000;
+    }
+  }
+
+  .navbar-brand {
+    padding: 0;
+    order: 2;
+
+    .img-2 {
+      margin-left: 1rem;
+      @media (max-width: 600px) {
+        margin-left: 0px;
+      }
+    }
+  }
+
+  .navbar-collapse {
+    order: 3;
+    background-color: #ffe34b;
+    width: calc(100% - 80px);
+    box-shadow: 0 2px 30px -18px rgba(0, 0, 0, 0.5);
+    padding: 30px 0;
+
+    @media (min-width: 992px) {
+      background-color: transparent;
+      order: 2;
+      box-shadow: none;
+    }
+
+    @media (max-width: 600px) {
+      margin: 0 auto;
+      margin-top: 50px;
+      padding: 20px 0px;
+    }
+  }
+
+  .collapsing {
+    transition: none;
+  }
+
+  .navbar-toggler {
+    margin: 20px -11px 0 auto;
+    border: 0;
+
+    &:focus {
+      outline: none;
+    }
+
+    span {
+      background-image: url("/img/hyster/menu.svg");
+    }
+  }
+
+  .collapse {
+    justify-content: flex-end;
+  }
+
+  .nav-item {
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+
+    @media (min-width: 992px) {
+      margin-bottom: 0;
+    }
+
+    .nav-link {
+      font-size: 36px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.08;
+      letter-spacing: -1.15px;
+      text-align: center;
+      color: #000;
+
+      &:hover,
+      &:active,
+      &:focus {
+        color: #000;
+      }
+
+      @media (min-width: 992px) {
+        font-size: 14px;
+        line-height: normal;
+        letter-spacing: 0.27px;
+        color: #ffe34b;
+
+        &:hover,
+        &:active,
+        &:focus {
+          color: #ffe34b;
+        }
+      }
+    }
+  }
+}
+
+.logo {
+  padding: 30px 0 30px 30px;
+
+  img {
+    height: 60px;
+  }
+}
+
+.teaser {
+  &__container {
+    .welcome-message {
+      font-family: "BebasNeue-Regular";
+      font-size: 60px;
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .embed-container {
+      border-bottom: 2px solid #ffe34b;
+    }
+
+    @media (max-width: 600px) {
+      .page__content {
+        padding-right: 0;
+        padding-left: 0;
+      }
+    }
+
+    @media (min-width: 1400px) {
+      .page__content {
+        padding: 0 275px;
+      }
+
+      .welcome-message {
+        display: none;
+      }
+    }
+  }
+}
+
+.auth {
+  &__container {
+    background: url("/img/hyster/rectangle-2.png") no-repeat;
+    background-size: 100% 100%;
+
+    .line {
+      border: 2px solid #9e1c20;
+      width: 20%;
+      background-color: #9e1c20;
+      margin: 30px 0;
+    }
+
+    @media only screen and (max-width: 600px) {
+      background: url("/img/hyster/mobile/rectangle-2.png") no-repeat;
+      background-size: 100% 100%;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+
+      .row {
+        padding-top: 50px;
+      }
+
+      @media only screen and (min-width: 992px) {
+        justify-content: center;
+      }
+
+      @media only screen and (max-width: 567px) {
+        justify-content: flex-end;
+      }
+    }
+
+    form {
+      .welcome-message {
+        margin: 40px 0 20px 0;
+        font-size: 16px;
+        font-family: "Arial";
+      }
+
+      .send-email-tablet {
+        padding: 5px 20px;
+        width: 140px;
+        font-size: 19px;
+      }
+
+      @media only screen and (max-device-width: 1366px) {
+        .welcome-message {
+          font-size: 14px;
+        }
+      }
+
+      @media (min-width: 600px) {
+        .send-email-mobile {
+          display: none;
+        }
+
+        .reset-email-input {
+          width: calc(100% - 160px);
+          margin-right: 20px;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .send-email-tablet {
+          display: none;
+        }
+      }
+
+      .link {
+        display: block;
+        font-family: "Arial";
+        padding: 30px 0 40px 0;
+        color: #ffe34b;
+      }
+
+      .forgot-password-desktop {
+        display: none;
+      }
+
+      .btn-login {
+        text-transform: uppercase;
+      }
+
+      .form-control {
+        border-radius: 0;
+        border: none;
+        background-color: #4d4d4d;
+        color: #fff;
+        max-width: 350px;
+        font-family: "Arial";
+      }
+
+      button {
+        background-color: transparent;
+        background-color: #ffe34b;
+        color: black;
+        border-radius: 0;
+        font-family: "BebasNeue-Bold";
+        font-size: 19px;
+        padding: 10px 25px;
+
+        @media only screen and (max-width: 600px) {
+          border-radius: 0;
+          width: calc(100% + 50px);
+          margin-left: -25px;
+          padding: 15px 25px;
+          background-color: #ffe34b;
+          color: black;
+          font-size: 24px;
+        }
+
+        &:hover {
+          border: 2px solid transparent;
+        }
+      }
+    }
+  }
+
+  &__header {
+    font-family: "BebasNeue-Bold";
+    font-size: 93px;
+    line-height: 78px;
+
+    @media (max-width: 813px) {
+      font-size: 65px;
+    }
+
+    @media (max-width: 415px) {
+      font-size: 55px;
+      line-height: 53px;
+    }
+  }
+}

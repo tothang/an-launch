@@ -1,0 +1,37 @@
+$this: 'btn';
+
+.#{$this} {
+  background: $grey-dark;
+  border: 2px solid $green-bright;
+  color: $blue-dark;
+  font-family: $font-family-body;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1;
+  padding: 13px 30px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  transition: all .2s linear;
+  cursor: pointer;
+  outline: 0;
+
+  &:hover {
+    background: lighten($green-bright, 15%);
+    border: 2px solid lighten($green-bright, 15%);
+    color: $blue-dark;
+  }
+
+  &--primary {
+    background: $green-bright;
+  }
+
+  &--secondary {
+    background: $white;
+  }
+
+  &--active {
+    background: $grey;
+    border: 2px solid $grey-dark;
+    color: $black;
+  }
+}

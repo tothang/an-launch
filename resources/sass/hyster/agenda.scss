@@ -1,0 +1,144 @@
+.agenda {
+  .hyster {
+    .font-bold {
+      font-weight: bold;
+    }
+    .agenda-content {
+      list-style-type: none;
+
+      li {
+        margin-bottom: 2rem;
+        p {
+          font-family: "BebasNeue-Bold";
+          span {
+            font-family: "BebasNeue-Bold";
+            padding-bottom: 0.6rem;
+          }
+          margin-bottom: 0.3rem;
+        }
+      }
+
+      .agenda-time-wrapper {
+        display: flex;
+        margin-left: -10px;
+        font-size: 28px;
+        margin-bottom: 3rem;
+
+        .time-item {
+          border-right: 3px solid #9E1C20;
+          padding: 10px;
+          letter-spacing: 0.57px;
+        }
+        .time-item:last-child {
+          border: none;
+        }
+        .time-item:first-child {
+          padding-left: 0px;
+          padding-right: 2px;
+        }
+      }
+
+      .under-line {
+        border-bottom: 3px solid #9E1C20;
+        width: auto;
+        text-transform: uppercase;
+        color: #FFE34B;
+        width: auto;
+      }
+
+      .red-line {
+        border-width: 2px;
+        border-color: #9e1c20;
+        width: 101px;
+        margin-left: 0px;
+        margin-top: -1rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 823px) {
+  .agenda {
+    background-image: url("/img/hyster/hyster-bg-Browser@2x.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    .agenda-content {
+      width: 100%;
+      margin: auto;
+      font-size: 30px;
+    }
+    .title {
+      margin-top: 50px;
+      font-size: 98px;
+    }
+    .time-item {
+      font-size: 30px;
+    }
+    .under-line {
+      width: 527px!important;
+      font-size: 30px;
+    }
+  }
+}
+@media (min-width: 420px) and (max-width: 823px) {
+  .agenda {
+    background-image: url("/img/hyster/bg-Browser.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    ul {
+      width: 100%;
+      margin: auto;
+      font-size: 30px;
+    }
+    .title {
+      margin-top: 50px;
+      font-size: 48px;
+    }
+    .time-item {
+      font-size: 26px;
+    }
+    .under-line {
+      width: 519px!important;
+    }
+    .red-line {
+      display: none;
+    }
+    .agenda-time-wrapper {
+      margin-left: 0px!important;
+    }
+  }
+}
+@media (max-width: 420px) {
+  .agenda {
+    background-image: url("/img/hyster/bg-Mobile.png");
+    background-position: 100% 8%;
+    background-repeat: no-repeat;
+    background-size: 77%;
+
+    .agenda-time-wrapper {
+      margin-left: 0px!important;
+    }
+
+    .hyster {
+      padding-left: 0px;
+      ul {
+        font-size: 22px;
+        width: 100%;
+        margin: auto;
+      }
+      .title {
+        margin-top: 40px;
+        font-size: 55px;
+      }
+      .time-item {
+        font-size: 20px;
+        text-align: center;
+        padding: 0px!important;
+      }
+    }
+    .under-line {
+      width: 271px!important;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@extends('layouts.app')
+
+@section('content')
+
+    <h1 class="text-center speaker-title">Speakers</h1>
+
+    <div class="container">
+        <div class="row">
+            @if($speakers->count() > 0)
+                @foreach($speakers as $speaker)
+                    @include('speakers::partials.speaker-item', $speaker)
+                @endforeach
+            @else
+                <h3 class="text-center">There are currently no speakers.</h3>
+            @endif
+        </div>
+    </div>
+
+@endsection

@@ -1,0 +1,6 @@
+{
+    "name": "Wordclouds",
+    "slug": "wordclouds",
+    "version": "1.0",
+    "description": "Allows users to submit words to be shown in the interactive wordclouds of the event"
+}

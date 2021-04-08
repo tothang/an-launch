@@ -1,0 +1,12 @@
+.owl {
+  &-dot {
+    &.active span {
+      background: $primary;
+    }
+
+    span {
+      background: transparent;
+      border: 1px solid $primary;
+    }
+  }
+}

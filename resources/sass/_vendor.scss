@@ -1,0 +1,13 @@
+@import "~bootstrap/scss/bootstrap";
+
+$fa-font-path: '/fonts';
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+
+@import "~datatables.net-bs4/css/dataTables.bootstrap4"
+;
+$owl-image-path: "/node_modules/owl.carousel/src/img/";
+@import "~owl.carousel/src/scss/owl.carousel";
+
+@import "~animate.css/animate.css";

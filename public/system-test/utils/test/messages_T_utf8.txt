@@ -1,0 +1,76 @@
+//Turkish messages
+if(paramObj.text_language_id=="T"){
+bandwithImageLanguage="T";
+
+objLang["TestYourSystem"] = "Sisteminizi Test Edin";
+objLang["SystemTest"] = "Sistem Testi";
+objLang["Passed"] = "Başarılı";
+objLang["Failed"] = "Başarısız";
+objLang["Warning"] = "Uyarı";
+objLang["BasicData"] = "Temel Veri";
+objLang["BrowserVersion"] = "Tarayıcı Versiyonu";
+objLang["XMLParser"] = "XML Parser";
+objLang["JavaEnabled"] = "Java Desteği";
+objLang["OperatingSystem"] = "İşletim Sistemi";
+objLang["Browser"] = "Tarayıcı";
+objLang["Cookies"] = "Çerezler";
+objLang["NEXTSTEP"] = "SONRAKİ ADIM";
+objLang["MediaPlayer"] = "Medya Player";
+objLang["downloadrealplayer"]= "Real Player'ı yükleyin";
+objLang["downloadwindowsmediaplayer"]= "Windows Media Player'ı yükleyin";
+objLang["downloadsilverlight"]= "Silverlight'ı yükleyin";
+objLang["RetryTest"]= "Testi Tekrar Et";
+
+objLang["SystemTestMsg1"]="Bu sayfa sunumu izleyebilmeniz için bilgisayarınızın gerekli şartları taşıyıp taşımadığını test edecektir. Eğer testlerden birisi başarısız olursa size verilen yönergeleri takip ederek sorunu gideriniz. Testi \"<i>Sisteminizi Test Edin</i>\" bağlantısına tıklayarak tekrar edebilirsiniz.";
+
+ShockwaveDirecter["msg1"] = "Bulunan eklentiler:";
+ShockwaveDirecter["msg2"] = "Shockwave for Director Desteği:";
+ShockwaveDirecter["msg3"] = "Shockwave Flash Desteği:";
+ShockwaveDirecter["msg4"] = "QuickTime Desteği:";
+ShockwaveDirecter["msg5"] = "Real Player Desteği:";
+ShockwaveDirecter["msg6"] = "Windows Media Player Desteği:";
+
+testjvm["msg1"] = "(4 Mart 2002 tarihinde yayınlandı)";
+testjvm["msg2"] = "Gerekli minimum yapı versiyonu <version>'dur.";
+testjvm["msg3"] = "Bu bilgisayarda Microsoft VM kurulu değildir.";
+testjvm["msg4"] = "Lütfen Java Sanal Makinesinin en son sürümünü <url> adresinden indiriniz.";
+testjvm["msg5"] = "Tarayıcı <browsername>'dir.";
+testjvm["msg6"] = "Microsoft VM bu ürün için mevcut değildir.";
+testjvm["msg7"] = "<vendor>'ın <version> versiyonunu kullanıyorsunuz.";
+
+writeCheckForJava["msg1"] = "Tarayıcınızda Java desteği yok.";
+writeCheckForJava["msg2"] = "Tarayıcınız Java Sanal Makinesinin şu anki versiyonuna sahip değil. Web konferanslarına katılmak için bu gereklidir. <linkstart>Buraya<linkend> tıklayarak en son güncellemeyi yükleyerek sisteminizi güncellemenizi tavsiye ediyoruz.";
+
+detectFlash["msg1"] = "En son Flash sürümüne sahip olmadığınızı belirledik. Lütfen <linkstart>buraya<linkend> tıklayarak Flash'ın en son sürümünü yükleyiniz.";
+
+OS["msg1"] = "Web yayınlarının görüntülenmesi ve dinlenmesi için gerekli Web yayını spesifikasyonlarını sağlayacak bir işletim sistemi bulamadık. Size şu işletim sistemlerini tavsiye ediyoruz: <linebreak>Windows 10, Windows 8, Windows 7, latest MacOS X. <linebreak>Windows'un eski sürümlerini (Windows Vista, XP, 2000, NT 4.0, Windows 98, Windows ME, Windows 95), Mac, Linux ve Unix işletim sistemlerini kullanan kullanıcılar Web yayınlarını izlerken ve dinlerken sorunlar yaşayabilirler. ";
+OS["msg2"] = "Web yayınlarının görüntülenmesi ve dinlenmesi için gerekli Web yayını spesifikasyonlarını sağlayacak bir işletim sistemi bulamadık. Size şu işletim sistemlerini tavsiye ediyoruz: <linebreak>Windows 10, Windows 8, Windows 7, latest MacOS X<linebreak>Windows'un eski sürümlerini (Windows Vista, XP, 2000, NT 4.0, Windows 98, Windows ME, Windows 95), Mac, Linux ve Unix işletim sistemlerini kullanan kullanıcılar Web yayınlarını izlerken ve dinlerken sorunlar yaşayabilirler. İşletim sistemi yenilemesi için lütfen ağ yöneticinize başvurunuz.";
+OS["msg3"] = "Mac işletim sistemi versiyonunu tam olarak bulamadık. Bazı Mac işletim sistemleri Web yayınlarının görüntülenmesi ve dinlenmesi için optimum performansı sunabilir ya da sunmayabilirler. En iyi performans için MacOS X 10.4 tavsiye ediyoruz.";
+OS["msg4"] = "Linux işletim sistemi versiyonunu tam olarak bulamadık. Bazı Linux işletim sistemleri Web yayınlarının görüntülenmesi ve dinlenmesi için optimum performansı sunabilir ya da sunmayabilirler. En iyi performans için Red Hat Linux 9 tavsiye ediyoruz.";
+
+msgBrowser["msg1"] = "Web yayınlarının görüntülenmesi ve dinlenmesi için gerekli Web yayını spesifikasyonlarını sağlayacak bir işletim sistemi bulamadık. Size şu işletim sistemlerini tavsiye ediyoruz: <linebreak>Windows 10, Windows 8, Windows 7, latest MacOS X<linebreak>Windows'un eski sürümlerini (Windows Vista, XP, 2000, NT 4.0, Windows 98, Windows ME, Windows 95), Mac, Linux ve Unix işletim sistemlerini kullanan kullanıcılar Web yayınlarını izlerken ve dinlerken sorunlar yaşayabilirler.";
+msgBrowser["msg2"] = "Size <link1start>Firefox<link1end>'ın en son sürümünü yüklemenizi ya da <link2start>Microsoft Internet Explorer<link2end>'a geçmenizi tavsiye ediyoruz. ";
+msgBrowser["msg3"] = "<link2start>Microsoft Internet Explorer<link2end>'ın ya da <link1start>Firefox<link1end>'ın en son sürümünü yüklemenizi tavsiye ediyoruz.";
+msgBrowser["msg4"] = "Web yayınını izlemek için Firefox'ın önceki sürümlerinden birine sahipsiniz. Size <a href='http://www.mozilla.org/products/firefox/all' target=_blank>buraya tıklayarak</a> en son sürümü yüklemenizi tavsiye ediyoruz.";
+
+msgXMLParser["msg1"] = "Bazı uygulamalarımız XML Parser gerektiriyor. Internet Explorer 6.0 ve sonrası tarayıcılarda bu özellik standart olarak geliyor. <link1start>Buraya tıklayarak tarayıcınızın en son sürümünü yükleyiniz<link1end>";
+
+msgCookies["msg1"] = "Tarayıcınız çerezleri kabul edecek şekilde ayarlanmamış. Çerezler Web yayınlarının seyredilmesi için gereklidir. <linkstart>Buraya<linkend> tıklayarak tarayıcılarınızın çerezleri kabul edecek şekilde nasıl ayarlanabileceğini görebilirsiniz.";
+
+msgMediaPlayer["msg1"] = "Aşağıdaki linklerden birine tıklayınız: Bilgisayarınızın medya yayınları için konfigüre edildiğini doğrulamak için <link1start>Real Player<link1end> veya <link2start>Windows Media<link2end> linklerden birine tıklayınız.";
+msgMediaPlayer["msg2"] = "";//Real Player
+msgMediaPlayer["msg3"] = "Bilgisayarınızın medya yayını için konfigüre edilip edilmediğini doğrulamak için <linkstart>Windows Media Player<linkend> tıklayın";
+msgMediaPlayer["msg4"] = "Web yayınlarının en iyi şekilde seyredilebilmesi ve dinlenebilmesi için aşağıdaki medya oynatıcısı eklentilerini tavsiye ediyoruz: <linebreak><listitemstart>İşletim sisteminiz Windows Media Player 12 ve üstünü desteklenmeli<listitemend>.";
+msgMediaPlayer["msg5"] = "Tavsiye Edilen Medya Yayın Testleri:";
+msgMediaPlayer["msg6"] = "<span style='color:#FF0000;font-weight:bold;'>Sisteminiz Video Seçeneğini görüntülemek için gerekli bantgenişliğine sahip değil.</span>";
+msgMediaPlayer["msg7"] = "<span style='color:#FF0000;font-weight:bold;'>Sisteminiz bu içeriği görüntülemek için gerekli bantgenişliğine sahip değil.</span>";
+
+testMediaPlayer["msg1"] = "<paragraphstart>Eğer test videosunu görüntüleyemediyseniz, web yayınını izlemek için alternatif medya oynatıcıyı düşünebilirsiniz. <paragraphend><paragraphstart>Eğer videoyu görebiliyor fakat ses duyamıyorsanız lütfen sisteminizin ve medya oynatıcınızın ses ayarlarını kontrol ediniz.<paragraphend><paragraphstart>Web yayınlarının en iyi şekilde izlenebilmesi ve dinlenebilmesi için şu medya oynatıcı eklentilerini tavsiye ediyoruz: <linebreak>Windows Media Player 12 ve üstü.<paragraphend>";
+
+testMediaPlayer["nostripting"] = "<br><br><span style='color:#FF0000;font-weight:bold;'>DİKKAT: Medya oynatıcınız scriptlere izin vermiyor. Scriptler yayınların oynatılması için gereklidir. Lütfen konfigürasyonunuzu düzeltmek için medya oynatıcınızı tekrar yükleyiniz. </span>";
+
+testFlash["msg1"] = "Flash Test Videosu:";
+testFlash["msg2"] = "Aşağıda kısa bir sesli test videosu oynuyor olmalı";
+
+
+}

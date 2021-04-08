@@ -1,0 +1,210 @@
+.register-page {
+  background-image: url("/img/yale/rectangle-2@2x.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+
+  h3 {
+    color: #e5a713;
+    font-size: 74px;
+    font-family: "DINNextLTPro-Bold";
+    margin: 64px 0 10px 0;
+    text-align: left;
+  }
+
+  h4 {
+    color: #e5a713;
+    font-size: 23px;
+    font-family: "DINNextLTPro-Bold";
+    padding: 10px 0;
+    text-align: left;
+  }
+
+  form {
+    background-color: white;
+    width: 750px;
+    margin: 20px auto;
+    box-shadow: 0 49px 59px 0 rgba(0, 0, 0, 0.09);
+    padding: 50px 100px;
+
+    .register-description {
+      text-align: left;
+      font-size: 12px;
+      padding: 17px 0;
+      font-family: "DINNextLTPro-Light";
+
+      .error {
+        color: #9e1c20;
+        font-family: 'Arial';
+      }
+
+      label.container {
+        color: #3E4545;
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 12px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
+        .privacy-policy {
+          a {
+            font-weight: bold;
+            color: #3E4545;
+          }
+        }
+
+        input {
+          position: absolute;
+          opacity: 0;
+          cursor: pointer;
+          height: 0;
+          width: 0;
+
+          &:checked {
+            ~ {
+              .checkmark {
+                background-color: #e4e4e4;
+                &:after {
+                  display: block;
+                }
+              }
+            }
+          }
+        }
+
+        &:hover {
+          input {
+            ~ {
+              .checkmark {
+                background-color: #ccc;
+              }
+            }
+          }
+        }
+
+        .checkmark {
+          &:after {
+            left: 9px;
+            top: 0px;
+            width: 9px;
+            height: 18px;
+            border: solid #e5a713;
+            border-width: 0 2px 2px 0;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+          }
+        }
+      }
+
+      .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: #eee;
+
+        &:after {
+          content: "";
+          position: absolute;
+          display: none;
+        }
+      }
+    }
+
+    .form-control {
+      border-radius: 8px;
+      border: none;
+      background-color: #e4e4e4;
+      color: #3e4545;
+      font-family: "DINNextLTPro-Light";
+    }
+
+    select {
+      padding: 10px;
+      padding-right: 30px;
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      appearance: none;
+      background-image: url('/img/icons/arrow-select.png');
+        background-repeat: no-repeat, repeat;
+        background-position: right 1em top 50%, 0 0;
+        background-size: .65em auto, 100%;
+    }
+
+    button {
+      border-radius: 8px;
+      background-color: #e5a713;
+      font-family: "DINNextLTPro-Bold";
+      font-size: 14px;
+      padding: 10px 40px;
+    }
+
+    .decline-btn {
+      font-size: 16px;
+
+      @media only screen and (max-width: 600px) {
+        font-size: 14px;
+      }
+    }
+
+    .btn-home {
+      border-radius: 8px;
+      background-color: #e5a713;
+      font-family: "DINNextLTPro-Bold";
+      font-size: 16px;
+      padding: 10px 40px;
+    }
+
+    .decline-success-container {
+      font-size: 14px;
+      color: #3E4545;
+      display: none;
+
+      .decline-success-message {
+        margin: 50px 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .register-page {
+    h3 {
+      font-size: 55px;
+      margin: 64px 0 10px 0;
+    }
+
+    .cant-make-it {
+      font-size: 45px;
+    }
+
+    h4 {
+      color: #e5a713;
+      font-size: 23px;
+      font-family: "DINNextLTPro-Bold";
+      padding: 10px 0;
+      text-align: left;
+    }
+
+    form {
+      padding: 0 15px;
+      text-align: center;
+      width: auto;
+      background-color: inherit;
+      box-shadow: none;
+    }
+
+    @media only screen and (max-width: 600px) {
+      #unableToAttendForm {
+        padding: 0 30px;
+      }
+    }
+  }
+}

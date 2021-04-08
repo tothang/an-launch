@@ -1,0 +1,71 @@
+$owl-height: 100vh - (10vh * 2);
+$owl-container-height: 40vh;
+
+.owl {
+  $root: &;
+
+  &__full-screen {
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-evenly;
+
+    &.owl-loaded {
+      display: flex;
+    }
+
+    .owl-item > div {
+      display: flex;
+      flex-direction: column;
+      height: $owl-height;
+      justify-content: space-between;
+      overflow-y: auto;
+    }
+
+    #{$root}__img {
+      text-align: center;
+
+      img {
+        display: inline-block;
+        max-height: $owl-container-height;
+        width: auto;
+      }
+    }
+
+    #{$root}__text {
+      padding: 0 5vw;
+    }
+
+    #{$root}__btn {
+      align-self: center;
+    }
+
+    #{$root}__video {
+      background: url("/img/onboarding/stream-bg.png") center center no-repeat;
+      background-size: contain;
+      padding: 5vh;
+
+      video {
+        max-height: $owl-container-height;
+        max-width: 100%;
+      }
+    }
+  }
+
+  &-dot {
+    &.active span {
+      background: $secondary;
+    }
+
+    span {
+      -webkit-backface-visibility: visible;
+      background: transparent;
+      border: 1px solid $primary;
+      border-radius: 30px;
+      display: block;
+      height: 10px;
+      margin: 5px 7px;
+      transition: opacity 200ms ease;
+      width: 10px;
+    }
+  }
+}

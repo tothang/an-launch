@@ -1,0 +1,27 @@
+.footer {
+  &__container {
+    align-items: center;
+    background: $light;
+    color: $dark;
+    display: flex;
+    height: $footer-height;
+    margin-top: $footer-margin;
+    padding: {
+      bottom: 1rem;
+      top: 1rem;
+    }
+
+    @include breakpoint('ts') {
+      padding: 0 $toggle-height-lg;
+    }
+  }
+
+  &__column {
+    align-items: center;
+    display: flex;
+  }
+
+  &__text {
+    font-size: .8rem;
+  }
+}

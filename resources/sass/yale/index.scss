@@ -1,0 +1,396 @@
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+.bg {
+  background-image: url("/img/yale/group-2@3x.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+
+  @media (min-width: 992px) {
+    min-height: 800px;
+  }
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.modal-backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-image: url("/img/yale/rectangle-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.backdrop-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.backdrop-logo {
+  padding: 30px 0 30px 0px;
+
+  a {
+    display: flex;
+  }
+
+  img {
+    height: 51px;
+  }
+}
+
+.mobile-menu-items-body {
+  height: 100%;
+  min-height: 100vh;
+  background: transparent;
+}
+
+@media (min-width: 601px) and (max-width: 991px) {
+  .container-fluid {
+    display: block!important;
+  }
+  .navbar-brand {
+    padding: 20px 0px !important;
+  }
+  .navbar-toggler {
+    float: right;
+  }
+}
+
+.onboarding {
+  .navbar {
+    margin-top: 30px;
+
+    @media (min-width: 992px) {
+      margin-top: 0;
+    }
+  }
+}
+
+.navbar {
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0), #fff);
+  transform: rotate(-360deg);
+  align-items: flex-start;
+  height: auto;
+  box-shadow: 5px 5px 5px 6px white;
+
+  @media (max-width: 600px) {
+    background-image: none;
+  }
+
+  .container-fluid {
+    flex-direction: column;
+    padding: 0 30px;
+    // background-color: #ffe34b;
+    // padding: 20px 20px calc(100vh - 383px) 20px;
+
+    @media (min-width: 992px) {
+      flex-direction: row;
+    }
+  }
+
+  .navbar-brand {
+    padding: 0;
+    order: 2;
+
+    .img-2 {
+      margin-left: 15px;
+    }
+  }
+
+  .navbar-collapse {
+    font-family: "DINNextLTPro-Regular";
+    font-size: 14px;
+    letter-spacing: 0.27px;
+    color: #000;
+    order: 3;
+    background-color: #fff;
+    width: calc(100% - 10px);
+    box-shadow: 0 2px 53px -4px rgba(0, 0, 0, 0.5);
+    padding: 30px 0;
+    align-items: flex-start;
+    padding-left: 29px;
+
+    .nav-item {
+      margin: 0px 10px;
+      font-weight: 600;
+    }
+
+    @media (min-width: 992px) {
+      background-color: transparent;
+      order: 2;
+      box-shadow: none;
+    }
+
+    @media (max-width: 600px) {
+      margin: 0 auto;
+      margin-top: 50px;
+      padding: 60px 0px;
+    }
+  }
+
+  .collapsing {
+    transition: none;
+  }
+
+  .navbar-toggler {
+    margin: 20px -15px 0 auto;
+    padding-right: 0;
+    border: 0;
+
+    &:focus {
+      outline: none;
+    }
+
+    span {
+      background-image: url("/img/yale/menu.svg");
+    }
+  }
+
+  .collapse {
+    justify-content: flex-end;
+  }
+
+  .nav-item {
+    @media (min-width: 992px) {
+      margin-bottom: 0;
+    }
+
+    .nav-link {
+      font-size: 24px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.92;
+      letter-spacing: -0.76px;
+      text-align: center;
+      color: #e5a713;
+      text-transform: uppercase;
+
+      @media (min-width: 992px) {
+        text-transform: initial;
+      }
+
+      &:hover,
+      &:active,
+      &:focus {
+        color: #e5a713;
+      }
+
+      @media (min-width: 992px) {
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.27px;
+        color: #000;
+
+        &:hover,
+        &:active,
+        &:focus {
+          color: #000;
+        }
+      }
+    }
+  }
+}
+
+.logo {
+  padding: 30px 0 30px 30px;
+
+  img {
+    height: 45px;
+  }
+}
+
+.teaser {
+  &__container {
+    background: url("/img/yale/rectangle-2.png") no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+
+    @media only screen and (max-width: 600px) {
+      background: url("/img/yale/mobile/rectangle-2.png") no-repeat;
+      background-size: 100% 100%;
+      min-height: 100vh;
+    }
+
+    .welcome-message {
+      color: #e5a713;
+      font-family: "DINNextLTPro-Bold";
+      font-size: 60px;
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .embed-container {
+      border-bottom: 2px solid #ffe34b;
+    }
+
+    @media (max-width: 600px) {
+      .page__content {
+        padding-right: 0;
+        padding-left: 0;
+      }
+    }
+
+    @media (min-width: 1400px) {
+      .page__content {
+        padding: 0 275px;
+      }
+
+      .welcome-message {
+        display: none;
+      }
+    }
+  }
+}
+
+.auth {
+  &__container {
+    background: url("/img/yale/rectangle-2.png") no-repeat;
+    background-size: 100% 100%;
+
+    @media only screen and (max-width: 600px) {
+      background: url("/img/yale/mobile/rectangle-2.png") no-repeat;
+      background-size: 100% 100%;
+    }
+
+    .yale-mobile-spacing {
+      height: 50px;
+
+      @media only screen and (max-width: 567px) {
+        display: block;
+      }
+
+      @media (min-width: 600px) {
+        display: none;
+      }
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+
+      .row {
+        padding-top: 50px;
+      }
+
+      @media only screen and (min-width: 992px) {
+        justify-content: center;
+      }
+
+      @media only screen and (max-width: 567px) {
+        justify-content: flex-end;
+      }
+    }
+
+    form {
+      .welcome-message {
+        margin: 30px 0;
+        color: #3e4545;
+        font-family: "DINNextLTPro-Light";
+      }
+
+      .send-email-tablet {
+        padding: 10px 20px;
+        width: 140px;
+      }
+
+      .link {
+        display: block;
+        padding: 40px 0 30px 0;
+        color: #e5a713;
+        font-family: "Arial";
+      }
+
+      @media (min-width: 600px) {
+        .send-email-mobile {
+          display: none;
+        }
+
+        .reset-email-input {
+          width: calc(100% - 160px);
+          margin-right: 20px;
+        }
+
+        .forgot-password-mobile {
+          display: none;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .send-email-tablet {
+          display: none;
+        }
+
+        .forgot-password-mobile {
+          padding: 20px 0 30px 0;
+        }
+
+        .forgot-password-desktop {
+          display: none;
+        }
+      }
+
+      .btn-login {
+        font-size: 14px;
+
+        @media only screen and (max-width: 600px) {
+          font-size: 24px;
+        }
+      }
+
+      .form-control {
+        border-radius: 8px;
+        border: none;
+        background-color: #e4e4e4;
+        color: #3e4545;
+        max-width: 350px;
+        font-family: "DINNextLTPro-Light";
+      }
+
+      button {
+        border-radius: 8px;
+        color: #000;
+        background-color: #e5a713;
+        font-family: "DINNextLTPro-Bold";
+        font-size: 16px;
+        padding: 10px 70px;
+
+        @media only screen and (max-width: 600px) {
+          border-radius: 0;
+          width: calc(100% + 50px);
+          margin-left: -25px;
+          font-size: 24px;
+          color: #000;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  &__header {
+    font-family: "DINNextLTPro-Bold";
+    color: #e5a713;
+    font-size: 55px;
+    line-height: 53px;
+
+    @media (min-width: 1024px) {
+      font-size: 84px;
+      line-height: 85px;
+    }
+  }
+}

@@ -1,0 +1,5 @@
+code,name,type,starts_at,is_external,is_live,stream_link,recording_code,external_link,downloadable_content,theme,segment_id
+main,Main,MAIN,NULL,0,0,85649_c_523836,1084537,,{},,1
+breakoutOne,The breakout test,BREAKOUT,NULL,0,0,85649_c_523836,1084537,,{},blue,2
+breakoutTwo,The second breakout test,BREAKOUT,NULL,1,0,,,www.google.com,{},red,2
+breakoutThree,The third breakout test,BREAKOUT,NULL,0,0,85649_c_523836,1084537,,{},yellow,2

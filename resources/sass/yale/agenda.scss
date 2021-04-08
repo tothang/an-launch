@@ -1,0 +1,131 @@
+.agenda {
+  nav {
+    box-shadow: none;
+  }
+  .yale {
+    color: #3E4545;
+    .font-bold {
+      font-family: "DINNextLTPro-Bold";
+    }
+    .title {
+      color: #e5a713;
+      font-family: "DINNextLTPro-Bold";
+    }
+    ul {
+      list-style-type: none;
+
+      li {
+        margin-bottom: 2rem;
+        p {
+          font-family: "DINNextLTPro-Regular";
+          span {
+            font-family: "DINNextLTPro-Bold";
+            padding-bottom: 0.6rem;
+          }
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+    .agenda-time-wrapper {
+      display: flex;
+      margin-left: -10px;
+      font-size: 28px;
+      margin-bottom: 3rem;
+
+      .time-item {
+        border-right: 2px solid #E5A713;
+        padding: 10px;
+        letter-spacing: 0.67px;
+      }
+      .time-item:last-child {
+        border: none;
+      }
+      .time-item:first-child {
+        padding-left: 0px;
+      }
+    }
+
+    .under-line {
+      border-bottom: 2px solid #E5A713;
+      width: auto;
+    }
+  }
+}
+
+@media (min-width: 823px) {
+  .agenda {
+    background-image: url("/img/yale/back-ground.png"),
+    url("/img/yale/back-ground2.png");
+    background-position: bottom, right top;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% 50%;
+    .yale {
+      font-size: 28px;
+      ul {
+        width: 100%;
+        margin: auto;
+      }
+      .title {
+        font-size: 100px;
+        margin-top: 80px;
+      }
+    }
+    .under-line {
+      width: 653px;
+    }
+  }
+}
+@media (min-width: 420px) and (max-width: 823px) {
+  .agenda {
+    background-image: url("/img/yale/bg-tb-mobile.png"),
+    url("/img/yale/bg-tablet.png");
+    background-position: bottom, right 1rem;
+    background-repeat: repeat, no-repeat;
+    background-size: 100%;
+    .yale {
+      font-size: 20px;
+      ul {
+        width: 100%;
+      }
+      .title {
+        margin-top: 80px;
+        font-size: 80px;
+      }
+    }
+    .time-item {
+      font-size: 20px;
+    }
+    .under-line {
+      width: 495px;
+    }
+  }
+}
+@media (max-width: 420px) {
+  .agenda {
+    background-image: url("/img/yale/bg-tb-mobile.png"),
+    url("/img/yale/bg-mobile.png");
+    background-position: bottom, right 5rem;
+    background-repeat: repeat, no-repeat;
+    background-size: 100%;
+    .yale {
+      margin-left: -15px;
+      font-size: 18px;
+      .title {
+        font-size: 45px;
+        margin-top: 5rem;
+      }
+      ul {
+        width: 100%;
+        margin: auto;
+      }
+    }
+    .time-item {
+      text-align: center;
+      font-size: 16px;
+      padding: 0px!important;
+    }
+    .under-line {
+      width: auto;
+    }
+  }
+}

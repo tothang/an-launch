@@ -1,0 +1,21 @@
+#: locale=en
+
+## Tour
+
+### Title
+tour.name = DRPG | 3D Virtual Tour
+
+## Media
+
+### Title
+panorama_EC7FD492_E702_36B1_41EA_BE5ADDC045D2.label = 07. Foyer (1) - new
+panorama_EC807C59_E702_75B3_4180_B40B947EE96F.label = 05. Breakout 02 (1) - new
+panorama_EC81E2CB_E702_3297_41BD_2AE211F62AE8.label = 04. Breakout 03 (1) - new
+panorama_EC86E4BA_E706_F6F1_41DB_F2D4D0B6BE66.label = 09. Expo 03 - new
+panorama_EC86ED63_E702_3797_41E1_BCB5A145EF2E.label = 06. Breakout 01 (1) - new
+panorama_ECA0BAEF_E706_326F_41BA_6EE6FC5E4DC9.label = 01. Expo (1) - new
+panorama_ECAADFF3_E706_3277_41BA_A5F036721ADC.label = 08. Expo 02 - new
+panorama_ECBA153E_E706_37F1_41D8_E2E8E6BD43BC.label = 02. Plenary (1) - new
+panorama_ECDD4B91_E702_F2B3_41E8_7C1D128B0A76.label = 03. Breakout Foyer (1) - new
+video_F3830790_E702_D2B1_41C2_581327E1CB80.label = world
+video_F4BE6533_E707_D7F7_41B5_CDD710E972B5.label = football

@@ -1,0 +1,69 @@
+//French messages
+if(paramObj.text_language_id=="F"){
+bandwithImageLanguage="F";
+
+objLang["TestYourSystem"] = "Testez votre système";
+objLang["Passed"] = "Succès";
+objLang["Failed"] = "Echec";
+objLang["Warning"] = "Attention";
+objLang["BasicData"] = "Données de base";
+objLang["BrowserVersion"] = "Version de navigateur";
+objLang["XMLParser"] = "Analyseur XML";
+objLang["JavaEnabled"] = "Compatible Java";
+objLang["OperatingSystem"] = "Système d'exploitation";
+objLang["Browser"] = "Navigateur";
+objLang["Cookies"] = "Cookies";
+objLang["NEXTSTEP"] = "ETAPE SUIVANTE";
+objLang["MediaPlayer"] = "Media Player";
+objLang["downloadrealplayer"]= "Téléchargez Real Player";
+objLang["downloadwindowsmediaplayer"]= "télédécharger Windows Media Player";
+objLang["RetryTest"]= "Réessayer test";
+
+ShockwaveDirecter["msg1"] = "Peut détecter les modules :";
+ShockwaveDirecter["msg2"] = "Prend en charge Shockwave for Director :";
+ShockwaveDirecter["msg3"] = "Prend en charge Shockwave Flash :";
+ShockwaveDirecter["msg4"] = "Prend en charge QuickTime :";
+ShockwaveDirecter["msg5"] = "Prend en charge RealPlayer :";
+ShockwaveDirecter["msg6"] = "Prend en charge Windows Media Player :";
+
+testjvm["msg1"] = "(publié le 4 mars 2002)";
+testjvm["msg2"] = "Le numéro de version minimum nécessaire est <version>";
+testjvm["msg3"] = "Microsoft VM n'est pas installé sur cet ordinateur.";
+testjvm["msg4"] = "Installez la dernière version de JVM (Java Virtual Machine) depuis <url>";
+testjvm["msg5"] = "Ce navigateur est <browsername>";
+testjvm["msg6"] = "Microsoft VM n'est pas disponible pour ce produit.";
+testjvm["msg7"] = "Vous utilisez <version> de <vendor>";
+
+writeCheckForJava["msg1"] = "Votre navigateur n'est pas compatible Java actuellement.";
+writeCheckForJava["msg2"] = "Votre navigateur ne dispose pas d'une version actuelle de Java Virtual Machine qui est nécessaire pour participer à des conférences en ligne. Il est recommandé de mettre à jour votre système en cliquant <linkstart>ici<linkend> pour obtenir les dernières mises à jour.";
+
+detectFlash["msg1"] = "Flash n'est pas installé sur votre ordinateur. Cliquez <linkstart>ici<linkend> pour l'installer.";
+
+OS["msg1"] = "Il est impossible de détecter un système d'exploitation qui réponde aux spécifications optimales de conférence en ligne audio et/ou vidéo. Il est recommandé d'utiliser <linebreak>Windows 7, 8, 10, ou  la dernière version de Mac OS X<linebreak>Notez que si vous disposez du système d'exploitation Windows Vista, XP, 2000, Windows NT 4.0, Windows 98,  Windows ME, Windows 95, Mac ou Unix, vous risquez de rencontrer des problèmes au cours des conférences en ligne audio et/ou vidéo.";
+OS["msg2"] = "Votre système d'exploitation ne répond pas aux spécifications optimales de conférence en ligne audio et/ou vidéo. Il est recommandé d'utiliser les systèmes d'exploitation <linebreak>Windows XP SP2 ou  la dernière version de Mac OS X<linebreak>Notez que si vous disposez du système d'exploitation Windows Vista, XP, 2000, Windows NT 4.0, Windows 98,  Windows ME, Windows 95, Mac ou Unix, vous risquez de rencontrer des problèmes au cours des conférences en ligne audio et/ou vidéo. Contactez votre administrateur réseau pour plus d'informations sur les mises à niveau des systèmes d'exploitation.";
+OS["msg3"] = "Il est impossible de détecter un système d'exploitation qui réponde aux spécifications optimales de conférence en ligne audio et/ou vidéo. Il est recommandé d'utiliser <linebreak>Windows XP SP2 ou la dernière version de Mac OS X<linebreak>Notez que si vous disposez du système d'exploitation Windows Vista, XP, 2000, Windows NT 4.0, Windows 98,  Windows ME, Windows 95, Mac ou Unix, vous risquez de rencontrer des problèmes au cours des conférences en ligne audio et/ou vidéo.";
+OS["msg4"] = "Il est impossible de détecter un système d'exploitation qui réponde aux spécifications optimales de conférence en ligne audio et/ou vidéo. Il est recommandé d'utiliser <linebreak>Windows XP SP2 ou  la dernière version de Mac OS X<linebreak>Notez que si vous disposez du système d'exploitation Windows Vista, XP, 2000, Windows NT 4.0, Windows 98,  Windows ME, Windows 95, Mac ou Unix, vous risquez de rencontrer des problèmes au cours des conférences en ligne audio et/ou vidéo.";
+
+msgBrowser["msg1"] = "Il est impossible de détecter un navigateur qui réponde aux spécifications optimales de conférence en ligne audio et/oui vidéo.";
+msgBrowser["msg2"] = "Il est recommandé d'installer la dernière version de <link1start>Firefox<link1end> ou d'utiliser <link2start>Microsoft Internet Explorer<link2end>.";
+msgBrowser["msg3"] = "Il est recommandé d'installer la dernière version de Microsoft Internet Explorer. En cas de problème, cliquez sur l'icône ci-dessous pour la Téléchargez-le.";
+msgBrowser["msg4"] = "Il est recommandé d'installer la dernière version de Microsoft Internet Explorer. En cas de problème, cliquez sur l'icône ci-dessous pour la télédécharger.";
+msgBrowser["msg5"] = "Il est recommandé d'installer la dernière version de Microsoft Internet Explorer. En cas de problème, cliquez sur l'icône ci-dessous pour la télédécharger.";
+
+msgXMLParser["msg1"] = "Certaines de vos applications nécessitent un analyseur XML. Cette fonction est fournie en standard dans Internet Explorer 6.0 et les versions ultérieures.  <link1start>Cliquez ici pour mettre à niveau votre navigateur<link1end>.";
+
+msgCookies["msg1"] = "Vous navigateur n'accepte pas actuellement les cookies qui sont nécessaires pour accéder aux conférences en ligne. Cliquez <linkstart>ici</linkend> pour savoir comment procéder pour que le navigateur accepte les cookies.";
+
+msgMediaPlayer["msg1"] = "Cliquez sur le lien <link2start>Windows Media Player<link2end> pour vérifier si votre ordinateur est configuré pour la diffusion multimédia en temps réel.";
+msgMediaPlayer["msg2"] = "";//Real Player
+msgMediaPlayer["msg3"] = "Cliquez sur le lien <linkstart>Windows Media Player<linkend> pour vérifier si votre ordinateur est configuré pour la diffusion multimédia en temps réel.";
+msgMediaPlayer["msg4"] = "Pour bénéficier de performances optimales de conférence en ligne audio et/ou vidéo, il est recommandé d'utiliser les modules de diffusion de médias suivants :<linebreak><listitemstart>Lecteur Windows Media 12 ou une version ultérieure prise en charge par votre système d'exploitation <listitemend><listitemstart>RealPlayer 10 ou une version ultérieure prise en charge par votre système d'exploitation<listitemend>. Cliquez sur l'une des icônes pour télécharger le Lecteur Windows Media Player.";
+msgMediaPlayer["msg5"] = "Vérifier votre lecteur multimédia:"
+msgMediaPlayer["msg6"] = "<span style='color:#FF0000;font-weight:bold;'>Votre système ne dispose pas de la capacité de bande passante minimum requise pour visionner la vidéo.</span>";
+msgMediaPlayer["msg7"] = "<span style='color:#FF0000;font-weight:bold;'>Votre système ne dispose pas de la capacité de bande passante minimum requise pour afficher le contenu de ce fichier.</span>";
+
+testMediaPlayer["msg1"] = "<paragraphstart>Si vous ne pouvez pas afficher le test vidéo, utilisez un autre diffuseur de médias pour voir la conférence en ligne.<paragraphend><paragraphstart>Si vous voyez la vidéo, mais n'entendez pas le son, vérifiez les paramètres du volume du système et le volume du diffuseur de médias.<paragraphend><paragraphstart>Pour bénéficier de performances optimales de conférence en ligne audio et/ou vidéo, il est recommandé d'utiliser les modules de diffusion de médias <linebreak>Windows Media Player 12 ou une version ultérieure.<paragraphend><paragraphstart>Cliquez sur l'une des icônes pour télécharger Windows Media Player";
+
+testFlash["msg2"] = "ci-dessous jouera un bref vidéo avec son";
+
+}

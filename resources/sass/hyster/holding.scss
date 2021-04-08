@@ -1,0 +1,448 @@
+.holding {
+  &.bg {
+    background-color: #000;
+    margin-top: -300px;
+    padding-top: 450px;
+    background-image: none;
+
+    @media (min-width: 992px) {
+      background-image: url("/img/hyster/holding/Hyster-Holding-BG.png");
+      background-repeat: no-repeat;
+      background-size: 64%;
+      background-position: top 25px right;
+      padding-top: 300px;
+    }
+  }
+
+  .clock-content {
+    h1 {
+      font-family: "BebasNeue-Bold";
+      font-size: 66px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      letter-spacing: 1.06px;
+      color: #ffffff;
+
+      @media (max-width: 576px) {
+        font-size: 60px;
+      }
+
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        letter-spacing: 0.06px;
+      }
+
+      @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+        letter-spacing: 0.06px;
+      }
+    }
+
+    .day-label,
+    .hour-label,
+    .min-label,
+    .sec-label {
+      font-family: "BebasNeue-Bold";
+      font-size: 20px;
+      font-weight: 700;
+      font-stretch: normal;
+      font-style: normal;
+      letter-spacing: 0.38px;
+      text-align: center;
+      color: #ffe34b;
+    }
+
+    .day-count,
+    .hour-count,
+    .min-count,
+    .sec-count {
+      font-family: 'BebasNeue-Regular';
+      font-size: 80px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      //letter-spacing: 0.95px;
+      text-align: center;
+      color: #ffffff;
+
+      @media (max-width: 576px) {
+        font-size: 50px;
+      }
+    }
+
+    .day,
+    .hour,
+    .min,
+    .sec {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+
+      &:not(:last-child) {
+        border-right: 3px solid #9E1C20;
+      }
+    }
+
+    .clock {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 25px 0 25px -5%;
+    }
+
+    .des p {
+      font-family: Arial;
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.63;
+      letter-spacing: normal;
+      color: #ffffff;
+
+      @media (min-width: 992px) {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .carousel-wrapper {
+    margin-top: -75px;
+    background: #3E4545;
+    height: 60vh;
+
+    .container {
+      padding-top: 50px;
+
+      .controls-top {
+        display: none;
+      }
+
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        margin-bottom: 40px;
+      }
+
+      @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+        margin-bottom: 50px;
+      }
+    }
+
+    @media (max-width: 576px) {
+      display: none;
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      height: 100vh;
+    }
+  }
+
+  .custom-btn-group {
+    .btn {
+      height: 48px;
+      display: flex;
+      align-items: center;
+      background: #FFE34B;
+      font-family: "BebasNeue-Bold";
+      font-size: 19px;
+      font-weight: 700;
+      margin-bottom: 30px;
+      margin-top: 25px;
+      border-radius: 0;
+
+      &:hover {
+        color: #000000;
+      }
+    }
+  }
+
+  .image {
+    //display: none;
+
+    @media (min-width: 992px) {
+      display: block;
+    }
+
+    img {
+      height: 415px;
+      width: 100%;
+      object-fit: cover;
+
+      @media (max-width: 576px) {
+        height: 235px;
+      }
+    }
+  }
+
+  .holding-carousel {
+    width: 100%;
+
+    .controls-top {
+      position: absolute;
+      z-index: 99;
+      right: 30px;
+      top: 30px;
+
+      .btn-floating {
+        color: #fff;
+        margin: 0 15px;
+        font-size: 25px;
+
+        &:hover,
+        &:focus {
+          color: #fff;
+        }
+      }
+    }
+
+    .carousel-item {
+      .card {
+        height: 342px;
+        background-color: transparent;
+
+        @media (min-width: 992px) {
+          margin: 0 2px 25px 2px;
+          -webkit-box-shadow: -1px 12px 20px -1px rgba(42,42,42,0.7);
+          -moz-box-shadow: -1px 12px 20px -1px rgba(42,42,42,0.7);
+          box-shadow: -1px 12px 20px -1px rgba(42,42,42,0.7);
+
+          &.mg-left {
+            margin-left: -7px;
+          }
+
+          &.mg-right {
+            margin-right: -7px;
+          }
+        }
+
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          margin-bottom: 10px;
+        }
+
+        @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+          margin-bottom: 10px;
+        }
+      }
+
+      .card-body {
+        display: flex;
+        flex-direction: column;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #000;
+        cursor: pointer;
+        text-decoration: none;
+
+        &:hover,
+        &:focus {
+          text-decoration: none;
+        }
+      }
+
+      .card-label {
+        font-family: 'BebasNeue-Regular';
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.4;
+        letter-spacing: 0.38px;
+        margin-top: 64px;
+        margin-left: 5px;
+        color: #3e4545;
+        background: #fff;
+        width: 180px;
+        text-align: left;
+        margin-bottom: 15px;
+        height: 46px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+
+        &.width-100 {
+          width: 100px;
+        }
+      }
+
+      .card-label-1 {
+        font-family: Arial;
+        font-size: 36px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.86;
+        //letter-spacing: 0px;
+        color: #ffe34b;
+        margin-left: 5px;
+        margin-bottom: 5px;
+      }
+
+      .card-title {
+        font-family: Arial;
+        font-size: 18px;
+        font-weight: 700;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: 0.3px;
+        color: #ffffff;
+        margin-left: 5px;
+      }
+    }
+  }
+
+  .mobile-block {
+    .section {
+      margin-bottom: -12px;
+    }
+
+    .card {
+      border-radius: 0;
+      border-top: 2px solid #ffe34b;
+      border-bottom: 2px solid #ffe34b;
+      border-left: none;
+      border-right: none;
+
+      .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #000;
+        padding-left: 0;
+      }
+
+      .play-btn {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+      }
+
+      .card-label {
+        font-family: 'BebasNeue-Regular';
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.4;
+        letter-spacing: 0.38px;
+        margin-top: 64px;
+        margin-left: 0;
+        color: #3e4545;
+        background: #fff;
+        width: 139px;
+        text-align: left;
+        margin-bottom: 15px;
+        height: 36px;
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 10px;
+
+        &.width-100 {
+          width: 100px;
+        }
+      }
+
+      .card-label-1 {
+        font-family: Arial;
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.86;
+        letter-spacing: 0.84px;
+        color: #ffe34b;
+        margin-left: 25px;
+        margin-bottom: 5px;
+      }
+
+      .card-title {
+        font-family: Arial;
+        font-size: 14px;
+        font-weight: 700;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: 0.3px;
+        color: #ffffff;
+        margin-left: 25px;
+      }
+    }
+
+    .view-link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "BebasNeue-Regular";
+      font-size: 24px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #ffffff;
+
+      a {
+        text-decoration: none;
+        color: #fff;
+
+        &:hover,
+        &:focus {
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    &.bg {
+      padding-top: 350px;
+
+      .clock-content {
+        margin-left: -14px;
+
+        .clock {
+          margin-left: 0;
+          margin-right: -10px;
+
+          .day-count,
+          .min-count,
+          .sec-count {
+            padding-left: 5px;
+            padding-right: 5px;
+          }
+        }
+      }
+
+      .image {
+        margin-left: 13px;
+        margin-right: -10px;
+      }
+    }
+  }
+
+  @media (max-width: 576px) {
+    .mobile-block {
+      .card {
+        .card-label {
+          margin-top: -10px;
+
+          &.width-100 {
+            margin-top: -70px;
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 992px) {
+    .embed-container {
+      margin-top: -40px;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.btn {
+  border: none {
+    radius: $border-radius;
+  };
+  font-weight: 900;
+  padding: $button-padding;
+
+  &-default {
+    background-color: $light;
+    color: $dark;
+    @include button-states {
+      background-color: darken($primary, 20%) !important;
+      border: none;
+    }
+  }
+
+  &-primary {
+    background-color: $primary;
+    color: $dark;
+    @include button-states {
+      background-color: darken($primary, 10%) !important;
+      border: none;
+    }
+  }
+    &-tiny {
+        padding: 5px;
+    }
+}

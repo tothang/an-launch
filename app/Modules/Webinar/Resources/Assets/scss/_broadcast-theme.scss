@@ -1,0 +1,56 @@
+$THEMES: (
+    'blue': #36A9E1,
+    'red': #E63312,
+    'yellow': #FECA1D,
+);
+
+body.theme {
+    @each $theme, $colour in $THEMES {
+        &--#{$theme} {
+            .navigation__toggle {
+                &::before {
+                    background: linear-gradient(90deg, $colour, darken($colour, 10%));
+                }
+            }
+            .navigation__item--active {
+                background: linear-gradient(90deg, $colour, darken($colour, 10%));
+                .navigation__link {
+                    color: $light;
+                    &:hover, &:focus, &:active, &.active {
+                        color: $light !important;
+                    }
+                }
+            }
+            .navigation__link {
+                &:hover, &:focus, &:active, &.active {
+                    color: $colour !important;
+                }
+            }
+            .navigation__angle {
+                .svg-gradient {
+                    &--from {
+                        stop-color: $colour;
+                    }
+                    &--to {
+                        stop-color: darken($colour, 10%);
+                    }
+                }
+                .navigation__angle-lines {
+                    stroke: $colour;
+                }
+            }
+            .btn {
+                &-primary {
+                    background-color: $colour;
+                    color: $light;
+                    &:hover, &:focus, &:active, &.active {
+                        background-color: darken($colour, 20%) !important;
+                    }
+                }
+            }
+            .tab__link.active {
+                border-color: $colour;
+            }
+        }
+    }
+}

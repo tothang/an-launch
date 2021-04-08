@@ -1,0 +1,6 @@
+{
+    "name": "Registration",
+    "slug": "registration",
+    "version": "1.0",
+    "description": "Allows users to provide further information about themselves by registering for the event."
+}

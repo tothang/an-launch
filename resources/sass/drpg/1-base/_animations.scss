@@ -1,0 +1,78 @@
+/*
+# USAGE #
+
+To add an animation to an element create a BEM class name
+- e.g. auth__header
+
+Add the block name (with class prefix) as the first map parameter in the $animations variable
+- e.g. $animations: (
+  '.auth'
+)
+
+Then add the element name as the second map parameter
+- e.g. $animations: (
+  '.auth': (
+    'header
+  )
+)
+
+Finally add the animation you would like as the element value
+- e.g. $animations: (
+  '.auth': (
+    'header: fadeIn
+  )
+)
+
+The $animations variable can take any animation however was primary built with animate.css in mind, a list of animations can be found here: https://animate.style/
+
+For more control over your animation you can pass a list as the third parameter
+This list accepts the following options: 'animation', 'duration', 'delay'
+- e.g. $animations: (
+  '.auth': (
+    'header: (
+        'animation': fadeIn,
+        'duration': $long-animation-duration,
+        'delay': 5s,
+    )
+  )
+)
+
+# NOTICE #
+Animation delay doesnt work with "in" animations by default as the element needs visibility: hidden or opacity: 0 applied first.
+
+*/
+
+$standard-animation-duration: 1s;
+$long-animation-duration: 1.5s;
+
+$animations: (
+  '.auth': (
+    'logo': flipInX,
+    'header': fadeIn,
+    'img--top': slideInLeft,
+    'img--bottom': slideInRight,
+    'form': fadeIn
+  ),
+  '.navigation': (
+    'toggle': slideInLeft,
+    'brand': slideInLeft,
+    'angle': slideInRight,
+  )
+);
+
+@each $block, $elements in $animations {
+  @each $element, $values in $elements {
+    #{$block}__#{$element} {
+      @if(is-map($values)) {
+        animation: map_get($values, 'animation') {
+          duration: map_get($values, 'duration');
+          delay:  map_get($values, 'delay');
+        };
+      } @else {
+        animation: $values {
+          duration: $standard-animation-duration;
+        };
+      }
+    }
+  }
+}

@@ -1,0 +1,148 @@
+.navigation {
+  $root: &;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  position: relative;
+  @include breakpoint('tl') {
+    align-items: flex-start;
+    margin-bottom: $nav-margin-bottom;
+    padding: 0 0 0 $toggle-height-lg;
+  }
+
+  &__brand {
+    left: 0;
+    padding: 10px;
+    position: absolute;
+    z-index: 1002;
+  }
+
+  &__logo {
+    height: 45px;
+    width: auto;
+  }
+
+  &__toggle {
+    -webkit-appearance: none;
+    background-color: transparent;
+    height: $toggle-height;
+    left: 0;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    width: $toggle-height;
+    z-index: 1001;
+
+    @include breakpoint('tl') {
+      height: $toggle-height-lg;
+      width: $toggle-height-lg;
+    }
+
+    &:before {
+      bottom: 0;
+      content: '';
+      height: 150%;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      @include primary-gradient();
+      transform: translate(-50%, -50%) rotateZ(45deg) scale($toggle-bg-scale + 4);
+      transition: .3s ease-in-out;
+      width: 150%;
+      z-index: -1;
+    }
+
+    &.collapsed {
+      &:before {
+        transform: translate(-50%, -50%) rotateZ(45deg);
+      }
+
+      #{$root}__icon {
+        @include toggle(false);
+      }
+    }
+  }
+
+  &__icon {
+    display: block;
+    position: relative;
+    @include toggle(true);
+    width: 50%;
+  }
+
+  &__collapse {
+    left: 10px;
+    position: absolute;
+    top: 100%;
+    z-index: 1002;
+    @include breakpoint('tl') {
+      position: relative;
+    }
+  }
+
+  &__item {
+    padding: 10px 0;
+
+    @include breakpoint('tl') {
+      padding: 10px 20px;
+    }
+
+    &:last-of-type {
+      padding-top: 50px;
+      @include breakpoint('tl') {
+        padding: 10px 20px;
+      }
+    }
+
+    &--active {
+      border-left: 2px solid $dark;
+      @include breakpoint('tl') {
+        @include primary-gradient();
+        clip-path: polygon(33% 0%, 100% 0%, 66% 100%, 0% 100%);
+        #{$root}__link {
+          color: $dark;
+
+          &:hover, &:focus {
+            color: $light;
+          }
+        }
+      }
+    }
+  }
+
+  &__link {
+    color: $dark;
+    display: block;
+    font-family: NTF-Grand-Regular, sans-serif;
+    font-size: 2rem;
+    line-height: 2rem;
+    padding: {
+      left: 2rem;
+      right: 2rem;
+    }
+
+    &:hover, &:focus {
+      color: $primary;
+    }
+
+    @include breakpoint('tl') {
+      color: $light;
+      font-size: 1.5rem;
+      padding: {
+        top: .2rem;
+        bottom: .2rem;
+      }
+    }
+  }
+
+  &__angle {
+    height: 25vw;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+  }
+}

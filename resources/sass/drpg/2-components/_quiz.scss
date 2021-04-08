@@ -1,0 +1,10 @@
+.question {
+  $root: &;
+  &__answers #{$root}__button {
+    margin-top: 1rem;
+  }
+  &__response {
+    font-family: NTF-Grand-Regular, sans-serif;
+    text-align: center;
+  }
+}

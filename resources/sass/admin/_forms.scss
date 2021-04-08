@@ -1,0 +1,16 @@
+.button-checkbox {
+  .active {
+    background-color: $brand-primary;
+    color: $light;
+  }
+}
+
+.form {
+  &-control {
+    &[type='checkbox'] {
+      width: unset;
+      display: inline-block;
+      height: unset;
+    }
+  }
+}

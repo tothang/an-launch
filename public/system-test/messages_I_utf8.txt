@@ -1,0 +1,75 @@
+//Italian messages
+if(paramObj.text_language_id=="I"){
+bandwithImageLanguage="I";
+
+objLang["TestYourSystem"]="Eseguire una verifica del sistema";
+objLang["SystemTest"]="Verifica del sistema";
+objLang["Passed"]="Riuscita";
+objLang["Failed"]="Non riuscita";
+objLang["Warning"]="Avviso";
+objLang["BasicData"]="Dati di base";
+objLang["Flash"]="Flash";
+objLang["BrowserVersion"]="Versione del browser";
+objLang["XMLParser"]="Parser XML";
+objLang["JavaEnabled"]="Abilitato per Java";
+objLang["OperatingSystem"]="Sistema operativo";
+objLang["Browser"]="Browser";
+objLang["Cookies"]="Cookie";
+objLang["NEXTSTEP"]="FASE SUCCESSIVA";
+objLang["MediaPlayer"]="Media Player";
+objLang["downloadrealplayer"]="Scarica Real Player";
+objLang["downloadwindowsmediaplayer"]="Scarica Windows Media Player";
+objLang["downloadsilverlight"]="Scarica Silverlight";
+objLang["SystemTestMsg1"]="Questa pagina consente di verificare se il sistema soddisfa i requisiti per visualizzare questa presentazione.  In caso contrario, attenersi alle istruzioni fornite per risolvere il problema prima di visualizzare la presentazione.  Questa verifica puÃ² essere ripetuta da ";
+objLang["Retry Test"]="Esegui di nuovo la verifica";
+
+ShockwaveDirecter["msg1"] = "Ãˆ in grado di rilevare i plug-in:";
+ShockwaveDirecter["msg2"] = "Supporta Shockwave for Director:";
+ShockwaveDirecter["msg3"] = "Supporta Shockwave Flash:";
+ShockwaveDirecter["msg4"] = "Supporta QuickTime:";
+ShockwaveDirecter["msg5"] = "Supporta RealPlayer:";
+ShockwaveDirecter["msg6"] = "Supporta Windows Media Player:";
+
+testjvm["msg1"] = "(rilasciato il 4 marzo 2002)";
+testjvm["msg2"] = "Il numero minimo di build necessario Ã¨ <version>";
+testjvm["msg3"] = "Microsoft VM non Ã¨ installato su questo computer.";
+testjvm["msg4"] = "Installare l'ultima versione di Java Virtual Machine da <url>";
+testjvm["msg5"] = "Questo browser Ã¨ <browsername>";
+testjvm["msg6"] = "Microsoft VM non Ã¨ disponibile per questo prodotto.";
+testjvm["msg7"] = "Ãˆ in esecuzione <version> di <vendor>";
+
+writeCheckForJava["msg1"] = "Il browser non Ã¨ attualmente abilitato per Java.";
+writeCheckForJava["msg2"] = "Il browser non dispone di una versione corrente di Java Virtual Machine, necessaria per partecipare alle conferenze Web. Si consiglia ottenere l'aggiornamento del sistema facendo clic <linkstart>qui<linkend>.";
+
+detectFlash["msg1"] = "L'utente non dispone dell'ultima versione di Flash. Fare clic <linkstart>qui<linkend> per installarla.";
+
+OS["msg1"] = "Non è stato possibile rilevare un sistema operativo che soddisfi le specifiche di webcast ottimali per ascoltare e/o visualizzare i webcast. Si consiglia di utilizzare i seguenti sistemi operativi:<linebreak>Windows 7, Windows 8, Windows 10, e  all'ultima versione di Mac OS X.<linebreak>L'utente";
+OS["msg2"] = "Il sistema operativo in uso non soddisfa le specifiche di webcast ottimali per ascoltare e/o visualizzare i webcast. Si consiglia di utilizzare i seguenti sistemi operativi:<linebreak>Windows 7, Windows 8, Windows 10, e  all'ultima versione di Mac OS X.<linebreak>";
+OS["msg3"] = "Non è stato possibile rilevare la versione esatta del sistema operativo Mac in uso. Alcuni sistemi operativi Mac non forniscono prestazioni ottimali per visualizzare/ascoltare i webcast.  Per prestazioni ottimali, si consiglia di utilizzare all'ultima versione di Mac OS X";
+OS["msg4"] = "Non è stato possibile rilevare la versione esatta del sistema operativo Linux in uso. Alcuni sistemi operativi Linux non forniscono prestazioni ottimali per visualizzare/ascoltare i webcast. Per prestazioni ottimali, si consiglia di utilizzare Red Hat Linux 9";
+
+msgBrowser["msg1"] = "Non è stato possibile rilevare un sistema operativo che soddisfi le specifiche di webcast ottimali per ascoltare e/o visualizzare i webcast. Si consiglia di utilizzare i seguenti sistemi operativi:<linebreak>Windows 7, Windows 8, Windows 10, e  all'ultima versione di Mac OS X.<linebreak>L'utente";
+msgBrowser["msg2"] = "Si consiglia di eseguire l'aggiornamento all'ultima versione di <link1start>Firefox<link1end> o di utilizzare <link2start>Microsoft Internet Explorer<link2end>.";
+msgBrowser["msg3"] = "Si consiglia di eseguire l'aggiornamento all'ultima versione di <link2start>Microsoft Internet Explorer<link2end> o di <link1start>Firefox<link1end>.";
+msgBrowser["msg4"] = "È necessario utilizzare una versione recente del browser Firefox per ascoltare e/o visualizzare questo webcast. Si consiglia di eseguire l'aggiornamento all'ultima versione facendo clic <a href='http://www.mozilla.org/products/firefox/all' target=_blank>qui</a>.";
+msgBrowser["msg5"] = "È necessario utilizzare una versione recente del browser Firefox per ascoltare e/o visualizzare questo webcast. Si consiglia di eseguire l'aggiornamento all'ultima versione facendo clic <a href='http://www.mozilla.org/products/firefox/all' target=_blank>qui</a>.";
+
+msgXMLParser["msg1"] = "Alcune delle applicazioni richiedono l'uso di Parser XML. In Internet Explorer versione 6.0 e successive tale software Ã¨ una funzionalitÃ  standard.  <link1start>Fare clic qui per aggiornare il browser<link1end>.";
+
+msgCookies["msg1"] = "Il browser non Ã¨ attualmente abilitato per accettare i cookie, necessari per accedere ai webcast. Fare clic <linkstart>qui</linkend> per ottenere istruzioni su come accettare i cookie tramite browser.";
+
+msgMediaPlayer["msg1"] = "Fare clic sul link seguente: <link2start>Windows Media<link2end> per verificare che il computer sia abilitato per lo streaming dei dati multimediali.";
+msgMediaPlayer["msg2"] = "";//Real Player
+msgMediaPlayer["msg3"] = "Fare clic sul link seguente: <linkstart>Windows Media Player<linkend> per verificare che il computer sia abilitato per lo streaming dei dati multimediali.";
+msgMediaPlayer["msg4"] = "Per ottenere un'esperienza ottimale di ascolto e/o di visualizzazione dei webcast, si consiglia di utilizzare i plug-in dei seguenti lettori multimediali:<linebreak><listitemstart>Windows Media Player 12 o versione successiva supportata dal sistema operativo in uso <listitemend><listitemstart>Rea";
+msgMediaPlayer["msg5"] = "Verifiche consigliate per lo streaming dei dati:";
+msgMediaPlayer["msg6"] = "<span style='color:#FF0000;font-weight:bold;'>Il sistema in uso non soddisfa il requisito minimo di larghezza di banda per visualizzare l'opzione Video.</span>";
+msgMediaPlayer["msg7"] = "<span style='color:#FF0000;font-weight:bold;'>Il sistema in uso non soddisfa il requisito minimo di larghezza di banda per visualizzare questo contenuto.</span>";
+
+testMediaPlayer["msg1"] = "<paragraphstart>Se non Ã¨ possibile visualizzare il video di prova, visualizzare il webcast utilizzando un lettore multimediale alternativo.<paragraphend><paragraphstart>Se Ã¨ possibile visualizzare i video ma l'audio Ã¨ assente, controllare le impostazioni del sistema relative al volume";
+testMediaPlayer["nostripting"] = "<br><br><span style='color:#FF0000;font-weight:bold;'>ATTENZIONE: il lettore multimediale in uso non consente lo script. Lo script Ã¨ necessario per eseguire gli eventi in streaming correttamente. Correggere la configurazione reinstallando il lettore multimediale in uso.</span>";
+
+testFlash["msg1"] = "Video di prova Flash:";
+testFlash["msg2"] = "viene visualizzato di seguito un breve video di prova";
+
+}

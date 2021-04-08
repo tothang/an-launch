@@ -1,0 +1,17 @@
+.header {
+  &--primary {
+    border-bottom: 1px solid $light;
+    font-family: NTF-Grand-Regular, serif;
+    padding-bottom: 15px;
+  }
+
+  &--secondary {
+    @extend .header--primary;
+    text-transform: uppercase;
+  }
+
+  &--tertiary {
+    font-family: NTF-Grand-Regular, serif;
+    text-transform: uppercase;
+  }
+}

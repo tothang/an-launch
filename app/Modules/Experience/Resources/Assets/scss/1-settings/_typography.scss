@@ -1,0 +1,62 @@
+// Fonts - Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+$font-family-body: 'Open Sans', sans-serif;
+
+// Fonts using @font-face
+//$font-family-light: 'NTF-Grand-Light';
+//$font-family-bold: 'NTF-Grand-Bold';
+
+@font-face {
+    font-family: 'NTF-Grand-Regular';
+    src:
+        url('../fonts/NTF-Grand-Regular.ttf') format('truetype'),
+        url('../fonts/NTF-Grand-Regular.woff') format('woff'),
+        url('../fonts/NTF-Grand-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BebasNeue-Bold';
+    src: url('../fonts/BebasNeue-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BebasNeue-Regular';
+    src: url('../fonts/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINNextLTPro-Bold';
+  src:
+      url('../fonts/DINNextLTPro-Bold.ttf') format('truetype'),
+      url('../fonts/DINNextLTPro-Bold.woff') format('woff'),
+      url('../fonts/DINNextLTPro-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINNextLTPro-Light';
+  src:
+      url('../fonts/DINNextLTPro-Light.ttf') format('truetype'),
+      url('../fonts/DINNextLTPro-Light.woff') format('woff'),
+      url('../fonts/DINNextLTPro-Light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINNextLTPro-Regular';
+  src: url('../fonts/DINNextLTPro-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$font-family: 'NTF-Grand-Regular', sans-serif;
+
+

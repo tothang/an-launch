@@ -1,0 +1,6 @@
+{
+    "name": "Webinar",
+    "slug": "webinar",
+    "version": "1.0",
+    "description": "The primary module, handles the broadcast parts of the application"
+}

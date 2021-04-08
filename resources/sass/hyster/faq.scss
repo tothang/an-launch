@@ -1,0 +1,76 @@
+.faq {
+  .hyster {
+    .font-bold {
+      font-weight: bold;
+    }
+    .faq-content {
+      list-style-type: none;
+
+      li {
+        margin-bottom: 2rem;
+        p {
+          font-family: "Arial";
+          span {
+            font-family: "BebasNeue-Bold";
+            border-bottom: 3px solid #9e1c20;
+            padding-bottom: 0.6rem;
+          }
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 823px) {
+  .faq {
+    background-image: url("/img/hyster/hyster-bg-Browser@2x.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    .faq-content {
+      width: 70%;
+      margin: auto;
+      font-size: 14px;
+    }
+    .title {
+      font-size: 98px;
+    }
+  }
+}
+@media (min-width: 420px) and (max-width: 823px) {
+  .faq {
+    background-image: url("/img/hyster/bg-Browser.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    ul {
+      width: 85%;
+      margin: auto;
+      font-size: 14px;
+    }
+    .title {
+      font-size: 48px;
+    }
+  }
+}
+@media (max-width: 420px) {
+  .faq {
+    background-image: url("/img/hyster/bg-Mobile.png");
+    background-position: 100% 8%;
+    background-repeat: no-repeat;
+    background-size: 77%;
+    border-bottom: 3px solid #ffe34b;
+
+    .hyster {
+      padding-left: 0px;
+      ul {
+        font-size: 14px;
+        width: 100%;
+        margin: auto;
+      }
+      .title {
+        font-size: 55px;
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+/*
+ * Colours
+ */
+
+@mixin primary-gradient($angle: 90deg) {
+  background: linear-gradient($angle, nth($primary-gradient, 1), nth($primary-gradient, 2));
+}
+
+/*
+ * Buttons
+ */
+
+@mixin button-states() {
+  &:hover, &:focus, &:active, &.active {
+    @content
+  }
+}
+
+/*
+ * Hamburger Menu Toggle
+ */
+
+%toggle-icon {
+  border-bottom: 3px solid $dark;
+  transform-origin: center;
+  transition: all 0.25s;
+}
+
+%toggle-icon-pseudo {
+  @extend %toggle-icon;
+  content: "";
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+@mixin toggle($toggled: false) {
+  @if $toggled {
+    transform: rotateZ(45deg);
+    margin-top: 7px;
+    @extend %toggle-icon;
+    &::before {
+      content: none;
+    }
+
+    &::after {
+      @extend %toggle-icon-pseudo;
+      width: 100%;
+      transform: rotateZ(-90deg);
+    }
+  } @else {
+    transform: rotateZ(0);
+    margin-top: 0;
+    @extend %toggle-icon;
+    &::before {
+      @extend %toggle-icon-pseudo;
+      top: 8px;
+      width: 75%;
+    }
+
+    &::after {
+      @extend %toggle-icon-pseudo;
+      top: 16px;
+      width: 50%;
+      transform: rotateZ(0);
+    }
+  }
+}

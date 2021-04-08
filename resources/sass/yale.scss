@@ -1,0 +1,17 @@
+@import 'commons/index';
+@import 'yale/index';
+@import 'yale/welcome';
+@import 'yale/broadcast';
+@import 'yale/holding';
+@import 'yale/confirmation-language';
+@import 'yale/register';
+@import 'yale/reset-password';
+@import 'yale/presenters';
+@import 'yale/notification';
+@import 'yale/onboarding';
+@import 'yale/faq';
+@import 'yale/agenda';
+
+* {
+  font-family: "DINNextLTPro-Regular";
+}

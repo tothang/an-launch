@@ -1,0 +1,12 @@
+key,value
+onboarding,1
+recording_mode,0
+show_forgot_password,1
+technical_issues,0
+technical_issues_title,''
+technical_issues_message,''
+theme,dark
+hyster_domain,https://staging-transform-hyster.drpg.dev
+yale_domain,https://staging-transform-yale.drpg.dev,
+hyster_contact_email,info@transform-hyster.com,
+yale_contact_email,info@transform-yale.com

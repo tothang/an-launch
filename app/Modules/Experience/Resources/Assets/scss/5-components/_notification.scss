@@ -1,0 +1,108 @@
+$this: 'notification';
+
+.#{$this} {
+    background-color: $white;
+    border-radius: 10px;
+    padding: 24px;
+    width: 100%;
+    display: block;
+    margin-bottom: 0.5rem;
+
+    &__container {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        max-width: 350px;
+        width: 30%;
+        opacity: 1;
+        transform: translateY(0);
+        transition: transform 0.2s linear, opacity 0.3s linear;
+        z-index: 1;
+    }
+
+    &--hidden {
+        opacity: 0;
+        transform: translateY(-350px);
+        transition: transform 0.2s linear, opacity 0.3s linear;
+    }
+
+    &__title {
+        color: $ash;
+        margin-top: 20px;
+    }
+
+    &__text {
+        color: $blue-dark;
+        line-height: 1.38;
+        font-size: 16px;
+        white-space: pre-wrap;
+    }
+
+    &__iframe-wrap {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        height: 0;
+        border-radius: 15px;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+
+    &__iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+
+    &__btn-wrap {
+        text-align: right;
+    }
+
+    &__btn {
+        display: inline-block;
+        margin-bottom: 0;
+    }
+
+    &__close {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+
+        &:before,
+        &:after {
+            content: '';
+            position: absolute;
+            left: 9px;
+            top: 0;
+            height: 20px;
+            width: 3px;
+            background-color: $ash;
+        }
+
+        &:before {
+            transform: rotate(45deg);
+        }
+
+        &:after {
+            transform: rotate(-45deg);
+        }
+    }
+
+    &__timer {
+        background-image: linear-gradient(64deg, $green-gross, $green-bright 56%, $green-lime 109%);
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 6px 15px;
+        font-family: $font-family;
+        font-size: 24px;
+        color: $ash;
+    }
+}

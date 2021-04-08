@@ -1,0 +1,15 @@
+.color {
+
+  $_colors: (
+    'primary': $primary,
+    'secondary': $secondary,
+  );
+
+  &__background {
+    @each $color, $hex in $_colors {
+      &--#{$color} {
+        background-color: #{$hex};
+      }
+    }
+  }
+}

@@ -1,0 +1,89 @@
+.faq {
+  nav {
+    box-shadow: none;
+  }
+  .yale {
+    .font-bold {
+      font-family: "DINNextLTPro-Bold";
+    }
+    .title {
+      color: #e5a713;
+      font-family: "DINNextLTPro-Bold";
+    }
+    ul {
+      list-style-type: none;
+
+      li {
+        margin-bottom: 2rem;
+        p {
+          font-family: "DINNextLTPro-Regular";
+          span {
+            font-family: "DINNextLTPro-Bold";
+            padding-bottom: 0.6rem;
+          }
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 823px) {
+  .faq {
+    background-image: url("/img/yale/back-ground.png"),
+      url("/img/yale/back-ground2.png");
+    background-position: bottom, right -60px top 60px;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% 50%;
+    .yale {
+      //max-width: 100%;
+      //padding-left: 100px;
+
+      font-size: 20px;
+      ul {
+        width: 70%;
+      }
+      .title {
+        font-size: 75px;
+        line-height: 100%;
+        margin-top: 100px;
+      }
+    }
+  }
+}
+@media (min-width: 420px) and (max-width: 823px) {
+  .faq {
+    background-image: url("/img/yale/bg-tb-mobile.png"),
+      url("/img/yale/bg-tablet.png");
+    background-position: bottom, right 1rem;
+    background-repeat: repeat, no-repeat;
+    background-size: 100%;
+    .yale {
+      ul {
+        width: 70%;
+      }
+      .title {
+        font-size: 48px;
+      }
+    }
+  }
+}
+@media (max-width: 420px) {
+  .faq {
+    background-image: url("/img/yale/bg-tb-mobile.png"),
+      url("/img/yale/bg-mobile.png");
+    background-position: bottom, right 5rem;
+    background-repeat: repeat, no-repeat;
+    background-size: 100%;
+    .yale {
+      .title {
+        font-size: 35px;
+        margin-top: 5rem;
+      }
+      ul {
+        width: 100%;
+        margin: auto;
+      }
+    }
+  }
+}

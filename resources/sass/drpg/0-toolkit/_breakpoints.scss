@@ -1,0 +1,69 @@
+////
+/// @group breakpoints
+////
+
+/// A map, which allows you to store a device name and it's width.
+/// We can use the values in this map to keep track of supported devices, and generate CSS selectors.
+///
+/// Some brand guidelines outline supported breakpoints, and have specific names for those. It's best to conform with their guidelines wherever possible.
+///
+///
+/// @access private
+/// @type Map
+/// @prop {string} device.key - Device key name, used to reference value
+/// @prop {int} device.value - Pixel width associated with device key name
+///
+$MEDIA_MAP: (
+  'ms': 375, // mobile small (portrait)
+  'ml': 600, // mobile large (landscape)
+  'ts': 768, // tablet small (portrait)
+  'tl': 992, // tablet large (landscape)
+  'ls': 1024, // laptop small
+  'll': 1200, // laptop large
+  'ds': 1400, // desktop small
+  'dl': 1800, // desktop large
+) !default;
+
+/// Mixin to standardise media query declaration and enforce mobile first
+///
+///
+/// @access public
+/// @param {String} $breakpoint-key - Specify viewport size to target
+/// @param {String} $media-type - Specify device type, or just do it for all
+///
+/// @example scss - Scss usage
+///
+///   .foo {
+///     padding: 20px;
+///
+///     @include breakpoint('ms') {
+///       padding: 30px;
+///     }
+///   }
+///
+/// @example css - CSS output
+///
+///   .foo {
+///     padding: 20px;
+///   }
+///
+///   @media all and (min-width: 30em) {
+///     .foo {
+///       padding: 30px;
+///     }
+///   }
+@mixin breakpoint($media-key, $media-type: 'all') {
+  $_map: $MEDIA_MAP;
+
+  @if (not map-has-key($_map, $media-key)) {
+    @error "Key not found"
+  }
+
+  $_value: map-get($_map, $media-key) / 16;
+  $_unit: 'em';
+  $_query-value: $_value + $_unit;
+
+  @media #{$media-type} and (min-width: $_query-value) {
+    @content;
+  }
+}

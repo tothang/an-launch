@@ -1,0 +1,340 @@
+.bg-presenter {
+  background-image: url("/img/yale/hero.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: bottom;
+
+  @media (min-width: 1024px) {
+    min-height: 500px;
+    background-size: 150% 120%;
+  }
+
+  @media (min-width: 600px) and (max-width: 1023px) {
+    background-size: 200% 130%;
+  }
+}
+.about-presenter {
+  &-container {
+    max-width: inherit;
+    background-image: url('/img/yale/bitmap-2@3x.png');
+    background-repeat: no-repeat;
+    background-size: 63% 100%;
+    background-position: right center;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &-description {
+    background-color: #e5a713;
+    color: white;
+    padding: 100px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    &-wrapper {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    h4 {
+      font-size: 36px;
+      font-family: DINNextLTPro-Bold;
+    }
+
+    .content {
+      font-family: DINNextLTPro-Light;
+      margin: 20px 0;
+    }
+
+    .btn-view-agenda {
+      border-radius: 24px;
+      color: #fff;
+      background-color: #e5a713;
+      font-family: DINNextLTPro-Bold;
+      font-size: 16px;
+      border: 1px solid white;
+      padding: 10px 40px;
+    }
+  }
+}
+
+.presenter-container {
+  max-width: inherit;
+
+  .presenter-calendar {
+    margin: 20px 0;
+    font-size: 28px;
+    line-height: 91px;
+    color: #3E4545;
+
+    .presenter-date {
+      margin-right: 15px;
+      font-family: DINNextLTPro-Bold;
+    }
+
+    .presenter-time {
+      font-family: DINNextLTPro-Light;
+    }
+  }
+
+  .col-md-4 {
+    background-color: white;
+  }
+
+  .unable-attend {
+    display: block;
+    padding: 20px 0 30px 0;
+    color: #3e4545;
+    font-family: DINNextLTPro-Light;
+  }
+
+  .header {
+    font-family: "DINNextLTPro";
+    color: #e5a713;
+    padding-top: 50px;
+    font-size: 100px;
+    line-height: 0.92;
+    letter-spacing: -3.14px;
+    font-weight: 700;
+
+    @media (min-width: 600px) and (max-width: 1023px) {
+      font-size: 80px;
+    }
+  }
+
+  .description {
+    margin: 5px 0 20px;
+    font-family: DINNextLTPro-Light;
+    font-size: 18px;
+    line-height: 26px;
+    color: #3E4545;
+  }
+
+  .btn-register {
+    border-radius: 24px;
+    color: #fff;
+    background-color: #e5a713;
+    font-family: DINNextLTPro-Bold;
+    font-size: 16px;
+    border: none;
+    padding: 10px 40px;
+  }
+
+  .btn-register-mobile {
+    display: none;
+  }
+}
+
+.presenter-section-container {
+  margin-top: 50px;
+  margin-bottom: 100px;
+
+  @media (max-width: 600px) {
+    padding: 0px!important;
+  }
+
+  .row {
+    //margin-top: 30px;
+  }
+
+  .col-md-3, .col-lg-3 {
+    margin-bottom: 5px;
+    padding: 0 5px;
+  }
+
+  .card-wrapper {
+    //background: #E5A713;
+    //background-image: linear-gradient(180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+    background-image: linear-gradient(to left, rgba(229, 167, 19, 0), #e5a713 0%);
+    margin-bottom: 14px;
+  }
+
+  .presenter-card {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    //padding-bottom: 35px;
+    color: white;
+    font-family: DINNextLTPro-Bold;
+  }
+
+  .presenter-img {
+    opacity: 0.41;
+    margin: 0px;
+    padding: 0px;
+    object-fit: cover;
+    width: 120px;
+
+    @media (min-width: 601px) and (max-width: 1023px) {
+      width: 150px;
+    }
+
+    @media (max-width: 600px) {
+      width: 200px;
+    }
+  }
+
+  .presenter-img-wrapper {
+    text-align: right;
+  }
+
+  .highlight {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    width: fit-content;
+    padding: 3px 20px;
+    margin-left: 5px;
+  }
+
+  .title {
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+  .title-2 {
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 30px;
+  }
+}
+
+.presenters-wrapper-desktop {
+  display: block;
+
+  @media only screen and (max-width: 1023px) {
+    display: none;
+  }
+}
+
+.presenters-wrapper-tablet-and-mobile {
+  display: block;
+
+  @media only screen and (min-width: 1024px) {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1023px) {
+  .presenter-container {
+    .presenter-container-bg {
+      //background-image: url("/img/yale/mobile/rectangle-2.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-position: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .bg-presenter {
+    background-image: none;
+  }
+
+  .presenter-section-container {
+    margin-bottom: 0;
+    margin-top: 0px;
+    padding: 0px;
+
+    .row {
+      margin-top: 0px;
+    }
+
+    img {
+      box-shadow: none;
+    }
+
+    .presenter-img {
+      background-image: linear-gradient(to top, rgba(229, 167, 19, 0), #e5a713 27%);
+    }
+
+    .presenter-card {
+      box-shadow: none;
+    }
+
+    .card-wrapper {
+      margin: 0px;
+    }
+  }
+
+  .presenter-container {
+    .header {
+      font-size: 50px;
+      line-height: 50px;
+      background-image: url('/img/yale/presenters-2@3x.png');
+      box-shadow: inset 130px 10px 5px 2px white;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-position: center;
+      margin-right: -15px;
+      padding-top: 150px;
+
+      span {
+        width: 275px;
+        display: block;
+      }
+
+      padding-left: 20px;
+    }
+
+    .description {
+      font-size: 16px;
+      line-height: 26px;
+      padding-left: 20px;
+    }
+
+    .presenter-calendar {
+      width: 230px;
+      line-height: normal;
+      padding-left: 20px;
+
+      .presenter-date {
+        font-size: 18px;
+      }
+
+      .presenter-time {
+        font-size: 18px;
+      }
+    }
+    .btn-presenter-group {
+      text-align: center;
+    }
+
+    .presenter-container-bg {
+      background-image: url("/img/yale/mobile/rectangle-2.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-position: center;
+    }
+  }
+
+  .about-presenter-container {
+    background-image: url('/img/yale/mobile/bitmap.png');
+    background-size: 90% 100%;
+    background-position: 40px;
+    box-shadow: inset 167px 5px 5px 0px white;
+
+    h4 {
+      color: #e5a713;
+    }
+
+    .about-presenter-description-wrapper {
+      max-width: 200px;
+      margin-left: 20px;
+    }
+
+    .content {
+      display: none;
+    }
+
+    .about-presenter-description {
+      background-color: inherit;
+      padding: 50px 15px;
+    }
+  }
+}
